@@ -1,6 +1,17 @@
+# Device Frames Media
+This repository contains PNGs of device frames of common Apple and Android phones. It also contains a PNG of a mask for each device type, and a template.json dilw. This mask allows images to be placed neatly within the device frame, with white pixels of where the image should be seen and black pixles of where they should be hidden.
+
+**Example of Frame and Mask**
+![iPhone 17 Pro Max Cosmic Orange Frame and Mask PNGs](docs/frame-and-mask-examples.png)
+
+---
+
+This repo uses the python script `process_frames.py` to generate a mask.png and template.json for each device frame. 
+
+
 
 # Processing frames
-![Frame process to seperate Mask and Frame](docs/process_frames_graphic.png)  
+![Frame process to seperate Mask and Frame](docs/device-frames-documentation.png)  
 Each frame is originally a png, stored in `/device-frames-raw`. In order to put a screenshot within the frame though, we need a mask. `process_frames.py` creates masks and a template.json with important information for each frame, and stores them within `/device-frames-output`.
 
 **Algorithm Overview**
