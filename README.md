@@ -90,7 +90,7 @@ Please add more device frames to expand the dataset.
 
 #TODO:
 Make it so process_frames doesnt take so long (only processes whats new)
-
+Consider having a github action that will do steps 2 and 3 of the contributing guide for you
 
 # List of Devices and Varations
 **iOS:**
