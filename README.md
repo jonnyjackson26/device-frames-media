@@ -1,18 +1,45 @@
 # Device Frames Media
-This repository contains PNGs of device frames of common Apple and Android phones. It also contains a PNG of a mask for each device type, and a template.json dilw. This mask allows images to be placed neatly within the device frame, with white pixels of where the image should be seen and black pixles of where they should be hidden.
+This repository contains data for common Apple/Android device frames.
+For each device, it contains a
+ - PNG of the device frame
+ - PNG of the mask of the frame
+ - JSON file with metadata  
 
-**Example of Frame and Mask**
-![iPhone 17 Pro Max Cosmic Orange Frame and Mask PNGs](docs/frame-and-mask-examples.png)
+**Example of Frame, Template, and Mask**
+![iPhone 17 Pro Max Cosmic Orange Frame, Template, and Mask PNGs](docs/frame-template-and-mask-examples.png)
 
----
+This data is stored within `device-frames-output`, which has this structure:
+```
+device-frames-output/
+├── {device-type}/                (android-phone, android-tablet, iOS, or iPad)
+│   └── {device-model}/           (ex: 17 Pro Max, iPad mini 8.3, Pixel 9 Pro XL)
+│       └── {variant}/            (ex: Cosmic Orange, Blue, Titanium)
+│           ├── frame.png         (original frame, RGBA, transparent background)
+│           ├── mask.png          (binary screen mask, grayscale)
+│           └── template.json     (metadata: coordinates, sizes)
+```
 
-This repo uses the python script `process_frames.py` to generate a mask.png and template.json for each device frame. 
 
+**Example template.json**
+```json
+{
+  "frame": "frame.png",            (RGBA frame image)
+  "mask": "mask.png",              (binary screen mask: white=screen, black=everything else, such as background or notches)
+  "screen": {
+    "x": 183,                      (screen top-left x)
+    "y": 169,                      (screen top-left y)
+    "width": 1145,                 (screen width)
+    "height": 2549                 (screen height)
+  },
+  "frameSize": {
+    "width": 1511,                 (full frame width)
+    "height": 2896                 (full frame height)
+  }
+}
+```
 
-
-# Processing frames
+This data is created from raw PNGs of device frames (`device-frames-raw`) with the script `process_frames.py`.  
 ![Frame process to seperate Mask and Frame](docs/device-frames-documentation.png)  
-Each frame is originally a png, stored in `/device-frames-raw`. In order to put a screenshot within the frame though, we need a mask. `process_frames.py` creates masks and a template.json with important information for each frame, and stores them within `/device-frames-output`.
 
 **Algorithm Overview**
 
@@ -49,55 +76,81 @@ Chooses the region with:
 - Feather inward by ~1px to avoid edge bleed
 
 
-### Output structure:
-
-Each processed frame generates 3 files in `device-frames-output/`:
-
-```
-device-frames-output/
-├── {device-type}/
-│   └── {device-model}/
-│       └── {color-variant}/
-│           ├── frame.png         (original frame, RGBA, transparent background)
-│           ├── mask.png          (binary screen mask, grayscale)
-│           └── template.json     (metadata: coordinates, sizes)
-```
-
-### Output Format
-
-**template.json** - Metadata for each device frame:  
-```json
-{
-  "frame": "frame.png",
-  "mask": "mask.png",
-  "screen": {
-    "x": 183,
-    "y": 169,
-    "width": 1145,
-    "height": 2549
-  },
-  "frameSize": {
-    "width": 1511,
-    "height": 2896
-  }
-}
-```
-
-**Fields:**
-- `frame`: Relative path to RGBA frame image
-- `mask`: Relative path to binary screen mask (white=screen, black=background)
-- `screen.x, y`: Top-left corner of screen bounding box
-- `screen.width, height`: Screen dimensions
-- `frameSize`: Full frame dimensions
-
-#### `frame.png`
-Original device frame (copy) with transparent background
-
-#### `mask.png`
-Binary mask where:
-- **White (255)**: Screen region
-- **Black (0)**: Everything else
-
 
 
 ---
+# Installation
+```
+pip install -r requirements.txt
+python process_frames.py
+```
+---
+
+# Contributing
+Please add more device frames to expand the dataset.
+1. Add the frame PNG to the appropriate spot in device-frames-raw
+2. run `process_frames.py`
+3. Add the device to the list of devices and varations below
+
+---
+
+# List of Devices and Varations
+**iOS:**
+ - 13 mini
+   - Black, Blue, Pink, Product (RED), Starlight
+
+ - 14 Pro Max
+   - Deep Purple, Deep Purple - Shadow, Gold, Gold - Shadow, Silver, Silver - Shadow, Space Black, Space Black - Shadow
+ - 15 Pro Max
+   - Black Titanium, Blue Titanium, Natural Titanium, White Titanium
+ - 16
+   - Black, Pink, Teal, Ultramarine, White
+ - 16 Plus
+   - Black, Pink, Teal, Ultramarine, White
+ - 16 Pro
+   - Black Titanium, Desert Titanium, Natural Titanium, White Titanium
+ - 16 Pro Max
+   - Black Titanium, Desert Titanium, Natural Titanium, White Titanium
+ - 17 Pro
+   - Cosmic Orange, Deep Blue, Silver
+ - 17 Pro Max
+   - Cosmic Orange, Deep Blue, Silver
+ - Air
+   - Cloud White, Light Gold, Sky Blue, Space Black
+
+**iPad:**
+
+ - iPad Air - 10.9 M1
+   - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
+ - iPad Air 11 M2 & M3
+   - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
+ - iPad Air 13 M2 & M3
+   - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
+ - iPad Pro 11 A12X to M2
+   - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
+ - iPad Pro 11 M4 & M5
+   - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
+ - iPad Pro 13 A12X to M2
+   - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
+ - iPad Pro 13 M4 & M5
+   - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
+ - iPad mini 8.3 A17 Pro
+   - Starlight, Starlight2
+
+**Android Phones:**
+
+ - Pixel 8
+   - Hazel
+ - Pixel 8 Pro
+   - Black, Blue, Silver
+ - Pixel 9 Pro
+   - Hazel, Obsidian, Rose Quartz
+ - Pixel 9 Pro XL
+   - Hazel, Obsidian, Rose Quartz
+
+**Android Tablets:**
+
+ - Pixel Tablet
+   - Hazel, Porcelain
+ - Samsung Galaxy Tab S11 Ultra
+   - Default
