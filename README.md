@@ -88,9 +88,14 @@ Please add more device frames to expand the dataset.
 2. run `process_frames.py`
 3. Add the device to the list of devices and varations below
 
+#TODO:
+Make it so process_frames doesnt take so long (only processes whats new)
+
 
 # List of Devices and Varations
 **iOS:**
+ - 8
+   - Gold, Silver, Space Grey
  - 13 mini
    - Black, Blue, Pink, Product (RED), Starlight
 
@@ -142,6 +147,8 @@ Please add more device frames to expand the dataset.
    - Hazel, Obsidian, Rose Quartz
  - Pixel 9 Pro XL
    - Hazel, Obsidian, Rose Quartz
+ - Samsung Galaxy S21
+   - Black, Pink, Violet, White
 
 **Android Tablets:**
 
