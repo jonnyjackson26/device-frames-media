@@ -39,7 +39,7 @@ device-frames-output/
 ```
 
 This data is created from raw PNGs of device frames (`device-frames-raw`) with the script `process_frames.py`.  
-![Frame process to seperate Mask and Frame](docs/device-frames-documentation.png)  
+![Frame process to seperate Mask and Frame](docs/process-frames-graphic.png)  
 
 **Algorithm Overview**
 
@@ -76,15 +76,11 @@ Chooses the region with:
 - Feather inward by ~1px to avoid edge bleed
 
 
-
-
----
 # Installation
 ```
 pip install -r requirements.txt
 python process_frames.py
 ```
----
 
 # Contributing
 Please add more device frames to expand the dataset.
@@ -92,7 +88,6 @@ Please add more device frames to expand the dataset.
 2. run `process_frames.py`
 3. Add the device to the list of devices and varations below
 
----
 
 # List of Devices and Varations
 **iOS:**
