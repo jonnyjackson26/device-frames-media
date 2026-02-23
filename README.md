@@ -38,7 +38,7 @@ device-frames-output/
 }
 ```
 
-  **Generated index.json**
+  [**Generated index.json**](https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/index.json)
 
   Running `process_frames.py` also creates `device-frames-output/index.json`, which contains all frames in a nested lookup structure:
 
