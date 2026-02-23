@@ -121,9 +121,11 @@ Please add more device frames to expand the dataset.
 2. run `process_frames.py`
 3. Add the device to the list of devices and varations below
 
-#TODO:
+# TODO:
+=========================================================================
 Make it so process_frames doesnt take so long (only processes whats new)
 Consider having a github action that will do steps 2 and 3 of the contributing guide for you
+Consider removing generated template.json files, i think they're useless
 
 # List of Devices and Varations
 **iOS:**
