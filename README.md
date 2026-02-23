@@ -38,6 +38,39 @@ device-frames-output/
 }
 ```
 
+  **Generated index.json**
+
+  Running `process_frames.py` also creates `device-frames-output/index.json`, which contains all frames in a nested lookup structure:
+
+  - `{device-type}` key in kebab-case (example: `ios`, `android-phone`)
+  - `{device-model}` key in kebab-case (example: `17-pro-max`)
+  - `{variant}` key in kebab-case (example: `cosmic-orange`)
+
+  Each variant includes hosted URLs and template metadata:
+
+  ```json
+  {
+    "ios": {
+      "17-pro-max": {
+        "cosmic-orange": {
+          "frame": "https://jonnyjackson26.github.io/device-frames-media/device-frames-output/iOS/17%20Pro%20Max/Cosmic%20Orange/frame.png",
+          "mask": "https://jonnyjackson26.github.io/device-frames-media/device-frames-output/iOS/17%20Pro%20Max/Cosmic%20Orange/mask.png",
+          "screen": {
+            "x": 100,
+            "y": 100,
+            "width": 1320,
+            "height": 2868
+          },
+          "frameSize": {
+            "width": 1520,
+            "height": 3068
+          }
+        }
+      }
+    }
+  }
+  ```
+
 This data is created from raw PNGs of device frames (`device-frames-raw`) with the script `process_frames.py`.  
 ![Frame process to seperate Mask and Frame](docs/process-frames-graphic.png)  
 
