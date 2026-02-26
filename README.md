@@ -115,6 +115,10 @@ pip install -r requirements.txt
 python process_frames.py
 ```
 
+By default, `process_frames.py` is incremental: it only processes PNGs that are new or changed since their generated outputs were last written.
+
+To fully regenerate all outputs, delete `device-frames-output` and run `python process_frames.py` again.
+
 # Contributing
 Please add more device frames to expand the dataset.
 1. Add the frame PNG to the appropriate spot in device-frames-raw
@@ -122,7 +126,6 @@ Please add more device frames to expand the dataset.
 
 # TODO:
 =========================================================================
-Make it so process_frames doesnt take so long (only processes whats new/changed)
 can we make the commit message detail what new frames were added?
 Consider removing generated template.json files, i think they're useless
 
