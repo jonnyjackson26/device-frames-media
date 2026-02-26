@@ -185,6 +185,8 @@ Consider removing generated template.json files, i think they're useless
 
 **Android Tablets:**
 
+ - Fake Pixel Tablet
+   - Hazel
  - Pixel Tablet
    - Hazel, Porcelain
  - Samsung Galaxy Tab S11 Ultra
