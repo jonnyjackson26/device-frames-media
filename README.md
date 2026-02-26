@@ -122,7 +122,8 @@ Please add more device frames to expand the dataset.
 
 # TODO:
 =========================================================================
-Make it so process_frames doesnt take so long (only processes whats new)
+Make it so process_frames doesnt take so long (only processes whats new/changed)
+can we make the commit message detail what new frames were added?
 Consider removing generated template.json files, i think they're useless
 
 # List of Devices and Variations

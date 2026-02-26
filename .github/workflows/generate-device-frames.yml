@@ -1,7 +1,9 @@
-name: Generate device frame outputs
+name: process-frames
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "device-frames-raw/**"
       - "process_frames.py"
@@ -47,5 +49,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add device-frames-output README.md
-          git commit -m "chore: regenerate frame outputs and README device list"
+          git commit -m "chore: processed frames and README device list"
           git push
