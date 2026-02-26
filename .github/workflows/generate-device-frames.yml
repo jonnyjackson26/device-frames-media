@@ -1,0 +1,51 @@
+name: Generate device frame outputs
+
+on:
+  push:
+    paths:
+      - "device-frames-raw/**"
+      - "process_frames.py"
+      - "scripts/update_readme_device_list.py"
+      - "requirements.txt"
+      - ".github/workflows/generate-device-frames.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Process frame assets
+        run: python process_frames.py
+
+      - name: Update README device list
+        run: python scripts/update_readme_device_list.py
+
+      - name: Commit generated changes
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add device-frames-output README.md
+          git commit -m "chore: regenerate frame outputs and README device list"
+          git push

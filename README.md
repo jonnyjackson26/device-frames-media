@@ -118,22 +118,20 @@ python process_frames.py
 # Contributing
 Please add more device frames to expand the dataset.
 1. Add the frame PNG to the appropriate spot in device-frames-raw
-2. run `process_frames.py`
-3. Add the device to the list of devices and varations below
+2. Push your branch (or open a PR) and GitHub Actions will automatically run `process_frames.py` and regenerate the device list below
 
 # TODO:
 =========================================================================
 Make it so process_frames doesnt take so long (only processes whats new)
-Consider having a github action that will do steps 2 and 3 of the contributing guide for you
 Consider removing generated template.json files, i think they're useless
 
-# List of Devices and Varations
+# List of Devices and Variations
 **iOS:**
+
  - 8
    - Gold, Silver, Space Grey
  - 13 mini
    - Black, Blue, Pink, Product (RED), Starlight
-
  - 14 Pro Max
    - Deep Purple, Deep Purple - Shadow, Gold, Gold - Shadow, Silver, Silver - Shadow, Space Black, Space Black - Shadow
  - 15 Pro Max
@@ -155,22 +153,22 @@ Consider removing generated template.json files, i think they're useless
 
 **iPad:**
 
- - iPad Air - 10.9 M1
-   - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
  - iPad Air 11 M2 & M3
    - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
  - iPad Air 13 M2 & M3
    - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
- - iPad Pro 11 A12X to M2
-   - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
- - iPad Pro 11 M4 & M5
-   - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
- - iPad Pro 13 A12X to M2
-   - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
- - iPad Pro 13 M4 & M5
-   - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
+ - iPad Air - 10.9 M1
+   - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
  - iPad mini 8.3 A17 Pro
    - Starlight, Starlight2
+ - iPad Pro 11 A12X to M2
+   - iPad Pro 11 A12X to M2 - Landscape - Silver, iPad Pro 11 A12X to M2 - Landscape - Silver - Pencil, iPad Pro 11 A12X to M2 - Landscape - Space Grey, iPad Pro 11 A12X to M2 - Landscape - Space Grey - Pencil, iPad Pro 11 A12X to M2 - Portrait - Silver, iPad Pro 11 A12X to M2 - Portrait - Silver - Pencil, iPad Pro 11 A12X to M2 - Portrait - Space Grey, iPad Pro 11 A12X to M2 - Portrait - Space Grey - Pencil
+ - iPad Pro 11 M4 & M5
+   - iPad Pro 11 M4 & M5 - Landscape - Silver, iPad Pro 11 M4 & M5 - Landscape - Space Black, iPad Pro 11 M4 & M5 - Portrait - Silver, iPad Pro 11 M4 & M5 - Portrait - Space Black
+ - iPad Pro 13 A12X to M2
+   - iPad Pro 13 A12X to M2 - Landscape - Silver, iPad Pro 13 A12X to M2 - Landscape - Silver - Pencil, iPad Pro 13 A12X to M2 - Landscape - Space Grey, iPad Pro 13 A12X to M2 - Landscape - Space Grey - Pencil, iPad Pro 13 A12X to M2 - Portrait - Silver, iPad Pro 13 A12X to M2 - Portrait - Silver - Pencil, iPad Pro 13 A12X to M2 - Portrait - Space Grey, iPad Pro 13 A12X to M2 - Portrait - Space Grey - Pencil
+ - iPad Pro 13 M4 & M5
+   - iPad Pro 13 M4 & M5 - Landscape - Silver, iPad Pro 13 M4 & M5 - Landscape - Space Black, iPad Pro 13 M4 & M5 - Portrait - Silver, iPad Pro 13 M4 & M5 - Portrait - Space Black
 
 **Android Phones:**
 
@@ -190,4 +188,4 @@ Consider removing generated template.json files, i think they're useless
  - Pixel Tablet
    - Hazel, Porcelain
  - Samsung Galaxy Tab S11 Ultra
-   - Default
+   - Samsung Galaxy Tab S11 Ultra
