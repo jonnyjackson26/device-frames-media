@@ -166,13 +166,13 @@ Consider removing generated template.json files, i think they're useless
  - iPad mini 8.3 A17 Pro
    - Starlight, Starlight2
  - iPad Pro 11 A12X to M2
-   - iPad Pro 11 A12X to M2 - Landscape - Silver, iPad Pro 11 A12X to M2 - Landscape - Silver - Pencil, iPad Pro 11 A12X to M2 - Landscape - Space Grey, iPad Pro 11 A12X to M2 - Landscape - Space Grey - Pencil, iPad Pro 11 A12X to M2 - Portrait - Silver, iPad Pro 11 A12X to M2 - Portrait - Silver - Pencil, iPad Pro 11 A12X to M2 - Portrait - Space Grey, iPad Pro 11 A12X to M2 - Portrait - Space Grey - Pencil
+   - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
  - iPad Pro 11 M4 & M5
-   - iPad Pro 11 M4 & M5 - Landscape - Silver, iPad Pro 11 M4 & M5 - Landscape - Space Black, iPad Pro 11 M4 & M5 - Portrait - Silver, iPad Pro 11 M4 & M5 - Portrait - Space Black
+   - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
  - iPad Pro 13 A12X to M2
-   - iPad Pro 13 A12X to M2 - Landscape - Silver, iPad Pro 13 A12X to M2 - Landscape - Silver - Pencil, iPad Pro 13 A12X to M2 - Landscape - Space Grey, iPad Pro 13 A12X to M2 - Landscape - Space Grey - Pencil, iPad Pro 13 A12X to M2 - Portrait - Silver, iPad Pro 13 A12X to M2 - Portrait - Silver - Pencil, iPad Pro 13 A12X to M2 - Portrait - Space Grey, iPad Pro 13 A12X to M2 - Portrait - Space Grey - Pencil
+   - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
  - iPad Pro 13 M4 & M5
-   - iPad Pro 13 M4 & M5 - Landscape - Silver, iPad Pro 13 M4 & M5 - Landscape - Space Black, iPad Pro 13 M4 & M5 - Portrait - Silver, iPad Pro 13 M4 & M5 - Portrait - Space Black
+   - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
 
 **Android Phones:**
 
