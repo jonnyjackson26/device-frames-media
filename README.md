@@ -178,8 +178,6 @@ Consider removing generated template.json files, i think they're useless
 
 **Android Phones:**
 
- - Pixel 7.5
-   - Hazel
  - Pixel 8
    - Hazel
  - Pixel 8 Pro
@@ -189,7 +187,7 @@ Consider removing generated template.json files, i think they're useless
  - Pixel 9 Pro XL
    - Hazel, Obsidian, Rose Quartz
  - Samsung Galaxy S21
-   - Black, black2, Pink, Violet, White
+   - Black, Pink, Violet, White
 
 **Android Tablets:**
 

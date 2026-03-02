@@ -1,21 +1,5 @@
 {
   "android-phone": {
-    "pixel-7-5": {
-      "hazel": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Pixel%207.5/Hazel/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Pixel%207.5/Hazel/mask.png",
-        "screen": {
-          "x": 183,
-          "y": 169,
-          "width": 1145,
-          "height": 2549
-        },
-        "frameSize": {
-          "width": 1511,
-          "height": 2896
-        }
-      }
-    },
     "pixel-8": {
       "hazel": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Pixel%208/Hazel/frame.png",
@@ -210,20 +194,6 @@
       "white": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21/White/frame.png",
         "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21/White/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 1080,
-          "height": 2400
-        },
-        "frameSize": {
-          "width": 1480,
-          "height": 2800
-        }
-      },
-      "black2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21/black2/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21/black2/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
