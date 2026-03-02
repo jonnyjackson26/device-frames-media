@@ -190,7 +190,7 @@ Consider removing generated template.json files, i think they're useless
 **Android Tablets:**
 
  - Pixel Tablet
-   - Hazel, Porcelain
+   - Hazel, ideeek, Porcelain
  - Samsung Galaxy Tab S11 Ultra
    - Samsung Galaxy Tab S11 Ultra
  - Samsung Galaxy Tab S11 Ultra copy
