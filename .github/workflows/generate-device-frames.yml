@@ -24,6 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,8 +34,43 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Process frame assets
-        run: python process_frames.py
+      - name: Detect changed files in device-frames-raw
+        id: changed
+        run: |
+          # Get list of changed files in device-frames-raw
+          ADDED=$(git diff HEAD~1 HEAD --name-only --diff-filter=A -- device-frames-raw/ || echo "")
+          MODIFIED=$(git diff HEAD~1 HEAD --name-only --diff-filter=M -- device-frames-raw/ || echo "")
+          DELETED=$(git diff HEAD~1 HEAD --name-only --diff-filter=D -- device-frames-raw/ || echo "")
+          RENAMED=$(git diff HEAD~1 HEAD --name-only --diff-filter=R -- device-frames-raw/ || echo "")
+          
+          CHANGED="${ADDED}
+          ${MODIFIED}
+          ${RENAMED}"
+          CHANGED=$(echo "$CHANGED" | grep -v '^$' | sort -u || true)
+          
+          # Export as multiline output
+          echo "changed<<EOF" >> $GITHUB_OUTPUT
+          echo "$CHANGED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "deleted<<EOF" >> $GITHUB_OUTPUT
+          echo "$DELETED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "count=$(echo "$CHANGED" | wc -l)" >> $GITHUB_OUTPUT
+
+      - name: Process changed frame assets
+        if: steps.changed.outputs.count > 0
+        run: |
+          # Convert multiline output to space-separated arguments
+          changed_files=$(echo "${{ steps.changed.outputs.changed }}" | tr '\n' ' ')
+          deleted_files=$(echo "${{ steps.changed.outputs.deleted }}" | tr '\n' ' ')
+          
+          if [ -z "$deleted_files" ]; then
+            python scripts/process_changed_files.py $changed_files
+          else
+            python scripts/process_changed_files.py $changed_files --deleted $deleted_files
+          fi
 
       - name: Update README device list
         run: python scripts/update_readme_device_list.py
@@ -48,6 +84,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A device-frames-output README.md
-          git commit -m "chore: processed frames and README device list"
+          git add -A device-frames-output/ README.md
+          git commit -m "chore: processed device frame assets"
           git push
