@@ -49,16 +49,18 @@ def generate_device_list_section() -> str:
                 key=lambda path: natural_sort_key(path.name),
             )
 
-            variants = [path.name for path in variant_paths]
-            if not variants:
+            if not variant_paths:
                 continue
 
-            # Create GitHub link for the device model folder
-            github_path = f"{directory_name}/{model_path.name}"
-            github_url = f"{GITHUB_REPO_BASE}/{quote(github_path, safe='/')}"
+            # Create GitHub links for each variant
+            variant_links = []
+            for variant_path in variant_paths:
+                github_path = f"{directory_name}/{model_path.name}/{variant_path.name}"
+                github_url = f"{GITHUB_REPO_BASE}/{quote(github_path, safe='/')}"
+                variant_links.append(f"[{variant_path.name}]({github_url})")
             
-            lines.append(f" - [{model_path.name}]({github_url})")
-            lines.append(f"   - {', '.join(variants)}")
+            lines.append(f" - {model_path.name}")
+            lines.append(f"   - {', '.join(variant_links)}")
 
         lines.append("")
 
