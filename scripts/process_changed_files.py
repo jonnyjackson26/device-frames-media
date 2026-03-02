@@ -11,10 +11,14 @@ Usage:
 """
 
 import argparse
+import os
 import subprocess
 import sys
 from pathlib import Path
 from typing import Set, Tuple
+
+# Add parent directory to path so we can import frame_processor
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from frame_processor import generate_index_file
 from frame_processor.common import logger
@@ -153,29 +157,36 @@ def main() -> int:
         description="Process only changed device frame files from git diff."
     )
     parser.add_argument(
-        "changed_files",
-        nargs="*",
-        help="List of added/modified file paths",
+        "--changed",
+        default=None,
+        help="Newline-separated list of changed files (from CHANGED_FILES env var)",
     )
     parser.add_argument(
         "--deleted",
-        nargs="*",
-        default=[],
-        help="List of deleted file paths",
+        default=None,
+        help="Newline-separated list of deleted files (from DELETED_FILES env var)",
     )
 
     args = parser.parse_args()
 
     workspace_root = Path(__file__).parent.parent
     
-    if not args.changed_files and not args.deleted:
+    # Read from environment variables if not provided as arguments
+    changed_input = args.changed or os.environ.get("CHANGED_FILES", "")
+    deleted_input = args.deleted or os.environ.get("DELETED_FILES", "")
+    
+    # Parse newline-separated lists
+    changed_files = [f.strip() for f in changed_input.split("\n") if f.strip()]
+    deleted_files = [f.strip() for f in deleted_input.split("\n") if f.strip()]
+    
+    if not changed_files and not deleted_files:
         logger.info("No changed files detected")
         return 0
 
     processed, deleted, failed = process_changed_files(
         workspace_root,
-        args.changed_files,
-        args.deleted,
+        changed_files,
+        deleted_files,
     )
 
     # Regenerate index if any frames were processed or deleted

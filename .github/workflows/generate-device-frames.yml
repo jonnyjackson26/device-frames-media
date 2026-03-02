@@ -61,16 +61,10 @@ jobs:
 
       - name: Process changed frame assets
         if: steps.changed.outputs.count > 0
-        run: |
-          # Convert multiline output to space-separated arguments
-          changed_files=$(echo "${{ steps.changed.outputs.changed }}" | tr '\n' ' ')
-          deleted_files=$(echo "${{ steps.changed.outputs.deleted }}" | tr '\n' ' ')
-          
-          if [ -z "$deleted_files" ]; then
-            python scripts/process_changed_files.py $changed_files
-          else
-            python scripts/process_changed_files.py $changed_files --deleted $deleted_files
-          fi
+        env:
+          CHANGED_FILES: ${{ steps.changed.outputs.changed }}
+          DELETED_FILES: ${{ steps.changed.outputs.deleted }}
+        run: python scripts/process_changed_files.py
 
       - name: Update README device list
         run: python scripts/update_readme_device_list.py
