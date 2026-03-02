@@ -163,6 +163,8 @@ Consider removing generated template.json files, i think they're useless
    - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
  - iPad Air - 10.9 M1
    - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
+ - iPad Air- 10.9 M1
+   - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
  - iPad mini 8.3 A17 Pro
    - Starlight, Starlight2
  - iPad Pro 11 A12X to M2
@@ -176,6 +178,8 @@ Consider removing generated template.json files, i think they're useless
 
 **Android Phones:**
 
+ - Pixel 7.5
+   - Hazel
  - Pixel 8
    - Hazel
  - Pixel 8 Pro
@@ -185,12 +189,12 @@ Consider removing generated template.json files, i think they're useless
  - Pixel 9 Pro XL
    - Hazel, Obsidian, Rose Quartz
  - Samsung Galaxy S21
-   - Black, Pink, Violet, White
+   - Black, black2, Pink, Violet, White
 
 **Android Tablets:**
 
  - Pixel Tablet
-   - Hazel, ideeek, Porcelain
+   - Hazel, Porcelain
  - Samsung Galaxy Tab S11 Ultra
    - Samsung Galaxy Tab S11 Ultra
  - Samsung Galaxy Tab S11 Ultra copy

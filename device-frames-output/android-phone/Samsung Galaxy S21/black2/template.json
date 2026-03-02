@@ -4,11 +4,11 @@
   "screen": {
     "x": 200,
     "y": 200,
-    "width": 2747,
-    "height": 1731
+    "width": 1080,
+    "height": 2400
   },
   "frameSize": {
-    "width": 3147,
-    "height": 2131
+    "width": 1480,
+    "height": 2800
   }
 }

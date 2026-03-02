@@ -1,5 +1,21 @@
 {
   "android-phone": {
+    "pixel-7-5": {
+      "hazel": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Pixel%207.5/Hazel/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Pixel%207.5/Hazel/mask.png",
+        "screen": {
+          "x": 183,
+          "y": 169,
+          "width": 1145,
+          "height": 2549
+        },
+        "frameSize": {
+          "width": 1511,
+          "height": 2896
+        }
+      }
+    },
     "pixel-8": {
       "hazel": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Pixel%208/Hazel/frame.png",
@@ -204,6 +220,20 @@
           "width": 1480,
           "height": 2800
         }
+      },
+      "black2": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21/black2/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21/black2/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1080,
+          "height": 2400
+        },
+        "frameSize": {
+          "width": 1480,
+          "height": 2800
+        }
       }
     }
   },
@@ -226,20 +256,6 @@
       "porcelain": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Pixel%20Tablet/Porcelain/frame.png",
         "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Pixel%20Tablet/Porcelain/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2747,
-          "height": 1731
-        },
-        "frameSize": {
-          "width": 3147,
-          "height": 2131
-        }
-      },
-      "ideeek": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Pixel%20Tablet/ideeek/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Pixel%20Tablet/ideeek/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -984,8 +1000,8 @@
   "ipad": {
     "ipad-air-10-9-m1": {
       "blue": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Blue/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Blue/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Blue/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Blue/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -998,8 +1014,8 @@
         }
       },
       "blue-2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Blue%202/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Blue%202/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Blue%202/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Blue%202/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1012,8 +1028,8 @@
         }
       },
       "green": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Green/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Green/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Green/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Green/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1026,8 +1042,8 @@
         }
       },
       "green-2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Green%202/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Green%202/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Green%202/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Green%202/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1040,8 +1056,8 @@
         }
       },
       "rose-gold": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Rose%20Gold/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Rose%20Gold/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Rose%20Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Rose%20Gold/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1054,8 +1070,8 @@
         }
       },
       "rose-gold-2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Rose%20Gold%202/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Rose%20Gold%202/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Rose%20Gold%202/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Rose%20Gold%202/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1068,8 +1084,8 @@
         }
       },
       "silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Silver/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Silver/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1082,8 +1098,8 @@
         }
       },
       "silver-2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Silver%202/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Silver%202/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Silver%202/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Silver%202/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1096,8 +1112,8 @@
         }
       },
       "space-grey": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Space%20Grey/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Space%20Grey/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Space%20Grey/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
@@ -1110,8 +1126,8 @@
         }
       },
       "space-grey-2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Space%20Grey%202/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1/Space%20Grey%202/mask.png",
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Space%20Grey%202/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1/Space%20Grey%202/mask.png",
         "screen": {
           "x": 200,
           "y": 200,
