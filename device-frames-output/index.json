@@ -208,22 +208,6 @@
     }
   },
   "android-tablet": {
-    "fake-pixel-tablet": {
-      "hazel": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Fake%20Pixel%20Tablet/Hazel/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Fake%20Pixel%20Tablet/Hazel/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2747,
-          "height": 1731
-        },
-        "frameSize": {
-          "width": 3147,
-          "height": 2131
-        }
-      }
-    },
     "pixel-tablet": {
       "hazel": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Pixel%20Tablet/Hazel/frame.png",
@@ -258,6 +242,22 @@
       "samsung-galaxy-tab-s11-ultra": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Samsung%20Galaxy%20Tab%20S11%20Ultra/Samsung%20Galaxy%20Tab%20S11%20Ultra/frame.png",
         "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Samsung%20Galaxy%20Tab%20S11%20Ultra/Samsung%20Galaxy%20Tab%20S11%20Ultra/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 202,
+          "width": 2960,
+          "height": 1848
+        },
+        "frameSize": {
+          "width": 3360,
+          "height": 2248
+        }
+      }
+    },
+    "samsung-galaxy-tab-s11-ultra-copy": {
+      "ultraaaa": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Samsung%20Galaxy%20Tab%20S11%20Ultra%20copy/ultraaaa/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/android-tablet/Samsung%20Galaxy%20Tab%20S11%20Ultra%20copy/ultraaaa/mask.png",
         "screen": {
           "x": 200,
           "y": 202,

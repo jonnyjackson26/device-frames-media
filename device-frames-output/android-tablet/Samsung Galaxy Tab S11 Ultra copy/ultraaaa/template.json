@@ -3,12 +3,12 @@
   "mask": "mask.png",
   "screen": {
     "x": 200,
-    "y": 200,
-    "width": 2747,
-    "height": 1731
+    "y": 202,
+    "width": 2960,
+    "height": 1848
   },
   "frameSize": {
-    "width": 3147,
-    "height": 2131
+    "width": 3360,
+    "height": 2248
   }
 }
