@@ -16,7 +16,7 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  processing-new-frames:
     runs-on: ubuntu-latest
 
     steps:
