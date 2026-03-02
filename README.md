@@ -132,68 +132,68 @@ Consider removing generated template.json files, i think they're useless
 # List of Devices and Variations
 **iOS:**
 
- - 8
+ - [8](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/8)
    - Gold, Silver, Space Grey
- - 13 mini
+ - [13 mini](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/13%20mini)
    - Black, Blue, Pink, Product (RED), Starlight
- - 14 Pro Max
+ - [14 Pro Max](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/14%20Pro%20Max)
    - Deep Purple, Deep Purple - Shadow, Gold, Gold - Shadow, Silver, Silver - Shadow, Space Black, Space Black - Shadow
- - 15 Pro Max
+ - [15 Pro Max](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/15%20Pro%20Max)
    - Black Titanium, Blue Titanium, Natural Titanium, White Titanium
- - 16
+ - [16](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/16)
    - Black, Pink, Teal, Ultramarine, White
- - 16 Plus
+ - [16 Plus](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/16%20Plus)
    - Black, Pink, Teal, Ultramarine, White
- - 16 Pro
+ - [16 Pro](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/16%20Pro)
    - Black Titanium, Desert Titanium, Natural Titanium, White Titanium
- - 16 Pro Max
+ - [16 Pro Max](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/16%20Pro%20Max)
    - Black Titanium, Desert Titanium, Natural Titanium, White Titanium
- - 17 Pro
+ - [17 Pro](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/17%20Pro)
    - Cosmic Orange, Deep Blue, Silver
- - 17 Pro Max
+ - [17 Pro Max](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/17%20Pro%20Max)
    - Cosmic Orange, Deep Blue, Silver
- - Air
+ - [Air](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iOS/Air)
    - Cloud White, Light Gold, Sky Blue, Space Black
 
 **iPad:**
 
- - iPad Air 11 M2 & M3
+ - [iPad Air 11 M2 & M3](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Air%2011%20M2%20%26%20M3)
    - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
- - iPad Air 13 M2 & M3
+ - [iPad Air 13 M2 & M3](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Air%2013%20M2%20%26%20M3)
    - Blue, Blue2, Lavender, Lavender2, Space Gray, Space Gray2, Stardust, Stardust2
- - iPad Air - 10.9 M1
+ - [iPad Air - 10.9 M1](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Air%20-%2010.9%20M1)
    - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
- - iPad Air- 10.9 M1
+ - [iPad Air- 10.9 M1](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Air-%2010.9%20M1)
    - Blue, Blue 2, Green, Green 2, Rose Gold, Rose Gold 2, Silver, Silver 2, Space Grey, Space Grey 2
- - iPad mini 8.3 A17 Pro
+ - [iPad mini 8.3 A17 Pro](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20mini%208.3%20A17%20Pro)
    - Starlight, Starlight2
- - iPad Pro 11 A12X to M2
+ - [iPad Pro 11 A12X to M2](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Pro%2011%20A12X%20to%20M2)
    - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
- - iPad Pro 11 M4 & M5
+ - [iPad Pro 11 M4 & M5](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Pro%2011%20M4%20%26%20M5)
    - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
- - iPad Pro 13 A12X to M2
+ - [iPad Pro 13 A12X to M2](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Pro%2013%20A12X%20to%20M2)
    - Landscape - Silver, Landscape - Silver - Pencil, Landscape - Space Grey, Landscape - Space Grey - Pencil, Portrait - Silver, Portrait - Silver - Pencil, Portrait - Space Grey, Portrait - Space Grey - Pencil
- - iPad Pro 13 M4 & M5
+ - [iPad Pro 13 M4 & M5](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/iPad/iPad%20Pro%2013%20M4%20%26%20M5)
    - Landscape - Silver, Landscape - Space Black, Portrait - Silver, Portrait - Space Black
 
 **Android Phones:**
 
- - Pixel 8
+ - [Pixel 8](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-phone/Pixel%208)
    - Hazel
- - Pixel 8 Pro
+ - [Pixel 8 Pro](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-phone/Pixel%208%20Pro)
    - Black, Blue, Silver
- - Pixel 9 Pro
+ - [Pixel 9 Pro](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-phone/Pixel%209%20Pro)
    - Hazel, Obsidian, Rose Quartz
- - Pixel 9 Pro XL
+ - [Pixel 9 Pro XL](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-phone/Pixel%209%20Pro%20XL)
    - Hazel, Obsidian, Rose Quartz
- - Samsung Galaxy S21
+ - [Samsung Galaxy S21](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-phone/Samsung%20Galaxy%20S21)
    - Black, Pink, Violet, White
 
 **Android Tablets:**
 
- - Pixel Tablet
+ - [Pixel Tablet](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-tablet/Pixel%20Tablet)
    - Hazel, Porcelain
- - Samsung Galaxy Tab S11 Ultra
+ - [Samsung Galaxy Tab S11 Ultra](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-tablet/Samsung%20Galaxy%20Tab%20S11%20Ultra)
    - Samsung Galaxy Tab S11 Ultra
- - Samsung Galaxy Tab S11 Ultra copy
+ - [Samsung Galaxy Tab S11 Ultra copy](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/android-tablet/Samsung%20Galaxy%20Tab%20S11%20Ultra%20copy)
    - ultraaaa

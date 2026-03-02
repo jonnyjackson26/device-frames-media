@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 from pathlib import Path
 import re
+from urllib.parse import quote
 
 WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
 README_PATH = WORKSPACE_ROOT / "README.md"
 OUTPUT_ROOT = WORKSPACE_ROOT / "device-frames-output"
+
+GITHUB_REPO_BASE = "https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output"
 
 START_HEADINGS = [
     "# List of Devices and Varations",
@@ -50,7 +53,11 @@ def generate_device_list_section() -> str:
             if not variants:
                 continue
 
-            lines.append(f" - {model_path.name}")
+            # Create GitHub link for the device model folder
+            github_path = f"{directory_name}/{model_path.name}"
+            github_url = f"{GITHUB_REPO_BASE}/{quote(github_path, safe='/')}"
+            
+            lines.append(f" - [{model_path.name}]({github_url})")
             lines.append(f"   - {', '.join(variants)}")
 
         lines.append("")
