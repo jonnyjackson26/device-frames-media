@@ -9,7 +9,7 @@ on:
       - "process_frames.py"
       - "scripts/update_readme_device_list.py"
       - "requirements.txt"
-      - ".github/workflows/generate-device-frames.yml"
+      - ".github/workflows/process-new-frames.yml"
   workflow_dispatch:
 
 permissions:

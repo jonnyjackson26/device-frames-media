@@ -126,6 +126,7 @@ Please add more device frames to expand the dataset.
 
 # TODO:
 =========================================================================
+fix "color" and "ios" to be apple iphone
 can we make the commit message detail what new frames were added?
 Consider removing generated template.json files, i think they're useless
 
