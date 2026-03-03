@@ -15,6 +15,9 @@ import os
 import sys
 from pathlib import Path
 
+# Add parent directory to path so we can import frame_processor
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from frame_processor import process_frame_list, generate_index_file
 from frame_processor.common import logger
 
@@ -24,8 +27,15 @@ def main() -> int:
     frames_output = workspace_root / "device-frames-output"
 
     # Get file list from arguments or environment variable
-    file_list = sys.argv[1:] if len(sys.argv) > 1 else os.environ.get("CHANGED_FILES", "").split()
-    file_list = [f for f in file_list if f.strip()]
+    if len(sys.argv) > 1:
+        file_list = sys.argv[1:]
+    else:
+        env_files = os.environ.get("CHANGED_FILES", "").strip()
+        # Split by newlines first (for GitHub Actions output), then by whitespace for single-line input
+        if '\n' in env_files:
+            file_list = [f.strip() for f in env_files.split('\n') if f.strip()]
+        else:
+            file_list = env_files.split() if env_files else []
 
     if not file_list:
         logger.warning("No files specified to process")
