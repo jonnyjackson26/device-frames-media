@@ -44,6 +44,50 @@
         }
       }
     },
+    "pixel-1000": {
+      "hazel": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%201000/Hazel/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%201000/Hazel/mask.png",
+        "screen": {
+          "x": 170,
+          "y": 140,
+          "width": 1344,
+          "height": 2992
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3272
+        }
+      },
+      "obsidian": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%201000/Obsidian/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%201000/Obsidian/mask.png",
+        "screen": {
+          "x": 170,
+          "y": 140,
+          "width": 1344,
+          "height": 2991
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3272
+        }
+      },
+      "rose-quartz": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%201000/Rose%20Quartz/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%201000/Rose%20Quartz/mask.png",
+        "screen": {
+          "x": 170,
+          "y": 140,
+          "width": 1344,
+          "height": 2992
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3272
+        }
+      }
+    },
     "pixel-8": {
       "hazel": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%208/Hazel/frame.png",
