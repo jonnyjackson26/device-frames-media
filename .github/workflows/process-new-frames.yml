@@ -99,24 +99,13 @@ jobs:
             | grep -E '^device-frames-raw/.*\.png$' \
             | sed 's#^device-frames-raw/##' \
             | awk -F'/' '
-                NF >= 4 {
-                  platform = $1
+                NF >= 2 {
                   device = $2
-                  color = $3
-
-                  if (platform == "iOS") {
-                    label = "iphone " device " " color
-                  } else if (platform == "iPad") {
-                    label = "ipad " device " " color
-                  } else {
-                    label = device " " color
-                  }
-
-                  gsub(/[[:space:]]+/, " ", label)
-                  print tolower(label)
+                  gsub(/[[:space:]]+/, " ", device)
+                  print device
                 }
               ' \
-            | sort -u \
+            | awk '!seen[tolower($0)]++' \
             || true)
 
           mapfile -t FRAME_TARGET_ARRAY <<< "$ADDED_FRAME_TARGETS"
