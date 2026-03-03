@@ -51,14 +51,9 @@ This data is created from raw PNGs of device frames (`device-frames-raw`) with t
 
 
 # Contributing
-Please add more device frames to expand the dataset.
+Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTRIBUTING.md).
 1. Add the frame PNG to the appropriate spot in device-frames-raw
 2. Push your branch (or open a PR) and GitHub Actions will automatically run `process_frames.py` and regenerate the device list below
-
-# TODO:
-=========================================================================
-fix "color" and "ios" to be apple iphone
-Consider removing generated template.json files, i think they're useless
 
 # List of Devices and Variations
 **iOS:**
