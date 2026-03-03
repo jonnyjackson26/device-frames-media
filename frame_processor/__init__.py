@@ -1,6 +1,6 @@
 """Device frame processing package."""
 
 from .indexer import generate_index_file
-from .pipeline import find_and_process_frames
+from .pipeline import discover_unprocessed_frames, process_frame_list
 
-__all__ = ["find_and_process_frames", "generate_index_file"]
+__all__ = ["discover_unprocessed_frames", "process_frame_list", "generate_index_file"]
