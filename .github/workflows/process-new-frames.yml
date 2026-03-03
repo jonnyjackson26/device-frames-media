@@ -42,6 +42,8 @@ jobs:
           MODIFIED=$(git diff HEAD~1 HEAD --name-only --diff-filter=M -- device-frames-raw/ || echo "")
           DELETED=$(git diff HEAD~1 HEAD --name-only --diff-filter=D -- device-frames-raw/ || echo "")
           RENAMED=$(git diff HEAD~1 HEAD --name-only --diff-filter=R -- device-frames-raw/ || echo "")
+
+          ADDED=$(echo "$ADDED" | grep -v '^$' | sort -u || true)
           
           CHANGED="${ADDED}
           ${MODIFIED}
@@ -55,6 +57,10 @@ jobs:
           
           echo "deleted<<EOF" >> $GITHUB_OUTPUT
           echo "$DELETED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+          echo "added<<EOF" >> $GITHUB_OUTPUT
+          echo "$ADDED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
           
           echo "count=$(echo "$CHANGED" | wc -l)" >> $GITHUB_OUTPUT
@@ -70,6 +76,8 @@ jobs:
         run: python scripts/update_readme_device_list.py
 
       - name: Commit generated changes
+        env:
+          ADDED_FILES: ${{ steps.changed.outputs.added }}
         run: |
           if git diff --quiet; then
             echo "No generated changes to commit"
@@ -79,5 +87,61 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add -A device-frames-output/ README.md
-          git commit -m "chore: processed device frame assets"
+
+          ADDED_FRAME_LINES=$(echo "$ADDED_FILES" \
+            | grep -E '^device-frames-raw/.*\.png$' \
+            | sed 's#^device-frames-raw/##' \
+            | sed 's#\.png$##' \
+            | sed 's#^#- #' \
+            || true)
+
+          ADDED_FRAME_TARGETS=$(echo "$ADDED_FILES" \
+            | grep -E '^device-frames-raw/.*\.png$' \
+            | sed 's#^device-frames-raw/##' \
+            | awk -F'/' '
+                NF >= 4 {
+                  platform = $1
+                  device = $2
+                  color = $3
+
+                  if (platform == "iOS") {
+                    label = "iphone " device " " color
+                  } else if (platform == "iPad") {
+                    label = "ipad " device " " color
+                  } else {
+                    label = device " " color
+                  }
+
+                  gsub(/[[:space:]]+/, " ", label)
+                  print tolower(label)
+                }
+              ' \
+            | sort -u \
+            || true)
+
+          mapfile -t FRAME_TARGET_ARRAY <<< "$ADDED_FRAME_TARGETS"
+          FRAME_TARGET_COUNT=0
+          for target in "${FRAME_TARGET_ARRAY[@]}"; do
+            if [ -n "$target" ]; then
+              FRAME_TARGET_COUNT=$((FRAME_TARGET_COUNT + 1))
+            fi
+          done
+
+          if [ "$FRAME_TARGET_COUNT" -eq 1 ]; then
+            COMMIT_SUBJECT="chore: processed ${FRAME_TARGET_ARRAY[0]}"
+          elif [ "$FRAME_TARGET_COUNT" -eq 2 ]; then
+            COMMIT_SUBJECT="chore: processed ${FRAME_TARGET_ARRAY[0]} and ${FRAME_TARGET_ARRAY[1]}"
+          elif [ "$FRAME_TARGET_COUNT" -gt 2 ]; then
+            COMMIT_SUBJECT="chore: processed ${FRAME_TARGET_COUNT} device frames"
+          else
+            COMMIT_SUBJECT="chore: processed device frame assets"
+          fi
+
+          if [ -n "$ADDED_FRAME_LINES" ]; then
+            COMMIT_BODY=$(printf "New frames added:\n%s" "$ADDED_FRAME_LINES")
+          else
+            COMMIT_BODY="No new raw frame files were added in this run."
+          fi
+
+          git commit -m "$COMMIT_SUBJECT" -m "$COMMIT_BODY"
           git push
