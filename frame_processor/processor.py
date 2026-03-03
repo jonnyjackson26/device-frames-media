@@ -92,12 +92,10 @@ class DeviceFrameProcessor:
     def _select_screen_candidate(
         self,
         labeled_array: np.ndarray,
-        frame_width: int,
-        frame_height: int,
+        _frame_width: int,
+        _frame_height: int,
     ) -> Optional[int]:
         """Select the largest valid transparent region as screen."""
-
-        _ = frame_width, frame_height
         candidates = []
 
         for label in np.unique(labeled_array):
@@ -266,6 +264,10 @@ class DeviceFrameProcessor:
         )
 
         template_path = self.output_path / "template.json"
-        with open(template_path, "w") as file_handle:
-            json.dump(template.to_dict(), file_handle, indent=2)
-        logger.info(f"Saved: {template_path}")
+        try:
+            with open(template_path, "w") as file_handle:
+                json.dump(template.to_dict(), file_handle, indent=2)
+            logger.info(f"Saved: {template_path}")
+        except (IOError, OSError, TypeError) as error:
+            logger.error(f"Failed to save template: {error}")
+            raise

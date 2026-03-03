@@ -12,6 +12,7 @@ Usage:
 
 import argparse
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -126,7 +127,6 @@ def process_changed_files(
         output_dir = frames_output / relative_path.parent / relative_path.stem
         
         if output_dir.exists():
-            import shutil
             shutil.rmtree(output_dir)
             logger.info(f"Removed output for deleted file: {relative_path.parent / relative_path.stem}")
             deleted_count += 1

@@ -6,7 +6,10 @@ from .processor import DeviceFrameProcessor
 
 
 def _is_output_up_to_date(input_path: Path, output_dir: Path) -> bool:
-    """Return True when expected outputs exist and are newer than source PNG."""
+    """Check if output files are up-to-date with source PNG.
+    
+    Returns True when all expected outputs exist and are newer than the source file.
+    """
     required_outputs = [
         output_dir / "frame.png",
         output_dir / "mask.png",
@@ -23,7 +26,10 @@ def _is_output_up_to_date(input_path: Path, output_dir: Path) -> bool:
 
 
 def _collect_existing_output_dirs(output_root: Path) -> set[Path]:
-    """Return output-relative variant directories currently present in output."""
+    """Collect all existing output directories in the output root.
+    
+    Returns a set of output-relative variant directory paths that currently exist.
+    """
     existing_dirs: set[Path] = set()
 
     for marker_name in ("template.json", "frame.png", "mask.png"):
@@ -34,7 +40,13 @@ def _collect_existing_output_dirs(output_root: Path) -> set[Path]:
 
 
 def _prune_stale_outputs(output_root: Path, expected_output_dirs: set[Path]) -> int:
-    """Delete output variant directories that no longer have corresponding raw PNGs."""
+    """Delete stale output directories and clean up empty parent directories.
+    
+    Removes variant directories that no longer have corresponding raw PNGs.
+    Also removes empty parent directories after deletion.
+    
+    Returns the count of directories removed.
+    """
     if not output_root.exists():
         return 0
 

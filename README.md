@@ -20,9 +20,10 @@ device-frames-output/
 │           └── template.json  
 ├── index.json 
 ```
-where `category` would be Apple iPhone, Android Phone, Android Tablet, Apple iPad, 
-`model` would be (ex: 17 Pro Max, iPad mini 8.3, Pixel 9 Pro XL), and 
-`variant` would be (ex: Cosmic Orange, Blue, Titanium), and [`index.json`](https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/index.json) is a JSON file which contains all frames in a nested lookup structure, each variant in kebab-case with hosted URLs and template metadata:
+where **category** is either `Apple iPhone, Android Phone, Android Tablet, Apple iPad`,   
+**model** is the type of device `(ex: 17 Pro Max, iPad mini 8.3, Pixel 9 Pro XL)`, and  
+**variant** is the different colors `(ex: Cosmic Orange, Blue, Titanium)`,  
+and [`index.json`](https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/index.json) is a JSON file which contains all frames in a nested lookup structure, each variant in kebab-case with hosted URLs and template metadata:
   ```json
   {
     "apple-iphone": {

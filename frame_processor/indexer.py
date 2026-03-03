@@ -38,8 +38,12 @@ def generate_index_file(
 
         device_type, device_model, variant = relative_dir.parts[:3]
 
-        with open(template_path, "r") as file_handle:
-            template_data = json.load(file_handle)
+        try:
+            with open(template_path, "r") as file_handle:
+                template_data = json.load(file_handle)
+        except (IOError, OSError, json.JSONDecodeError) as error:
+            logger.warning(f"Failed to read template {template_path}: {error}")
+            continue
 
         type_key = _slugify(device_type)
         model_key = _slugify(device_model)

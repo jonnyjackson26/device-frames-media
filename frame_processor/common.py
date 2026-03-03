@@ -11,7 +11,6 @@ GITHUB_PAGES_BASE_URL = "https://raw.githubusercontent.com/jonnyjackson26/device
 
 # Alpha thresholds
 ALPHA_CLEAR = 10      # Transparent threshold
-ALPHA_SOLID = 245     # Solid threshold
 
 # Constraints
 # Aspect ratio bounds (portrait phones: 1.7-2.4, tablets: 1.3-1.6)
