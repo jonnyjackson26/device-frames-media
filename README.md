@@ -1,53 +1,28 @@
 # Device Frames Media
-This repository contains data for common Apple/Android device frames.
-For each device, it contains a
- - PNG of the device frame
- - PNG of the mask of the frame
+**The Open Source Standard Library for Device Templates**
+
+For each device, there is a:
+ - PNG of the device frame 
+ - PNG of the mask of the frame (grayscale binary screen mask)
  - JSON file with metadata  
 
 **Example of Frame, Template, and Mask**
 ![iPhone 17 Pro Max Cosmic Orange Frame, Template, and Mask PNGs](docs/frame-template-and-mask-examples.png)
 
-This data is stored within `device-frames-output`, which has this structure:
+This data is stored within [`device-frames-output`](device-frames-output), which has this structure:
 ```
 device-frames-output/
-├── {device-type}/                (android-phone, android-tablet, iOS, or iPad)
-│   └── {device-model}/           (ex: 17 Pro Max, iPad mini 8.3, Pixel 9 Pro XL)
-│       └── {variant}/            (ex: Cosmic Orange, Blue, Titanium)
-│           ├── frame.png         (original frame, RGBA, transparent background)
-│           ├── mask.png          (binary screen mask, grayscale)
-│           └── template.json     (metadata: coordinates, sizes)
+├── {category}/         
+│   └── {model}/
+│       └── {variant}/            
+│           ├── frame.png         
+│           ├── mask.png
+│           └── template.json  
+├── index.json 
 ```
-
-
-**Example template.json**
-```json
-{
-  "frame": "frame.png",            (RGBA frame image)
-  "mask": "mask.png",              (binary screen mask: white=screen, black=everything else, such as background or notches)
-  "screen": {
-    "x": 183,                      (screen top-left x)
-    "y": 169,                      (screen top-left y)
-    "width": 1145,                 (screen width)
-    "height": 2549                 (screen height)
-  },
-  "frameSize": {
-    "width": 1511,                 (full frame width)
-    "height": 2896                 (full frame height)
-  }
-}
-```
-
-  [**Generated index.json**](https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/index.json)
-
-  Running `process_frames.py` also creates `device-frames-output/index.json`, which contains all frames in a nested lookup structure:
-
-  - `{device-type}` key in kebab-case (example: `ios`, `android-phone`)
-  - `{device-model}` key in kebab-case (example: `17-pro-max`)
-  - `{variant}` key in kebab-case (example: `cosmic-orange`)
-
-  Each variant includes hosted URLs and template metadata:
-
+where `category` would be Apple iPhones, Android Phones Android Tablets, Apple iPads, 
+`model` would be (ex: 17 Pro Max, iPad mini 8.3, Pixel 9 Pro XL), and 
+`variant` would be (ex: Cosmic Orange, Blue, Titanium), and [`index.json`](https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/index.json) is a JSON file which contains all frames in a nested lookup structure, each variant in kebab-case with hosted URLs and template metadata:
   ```json
   {
     "ios": {
@@ -71,53 +46,9 @@ device-frames-output/
   }
   ```
 
-This data is created from raw PNGs of device frames (`device-frames-raw`) with the script `process_frames.py`.  
+This data is created from raw PNGs of device frames (`device-frames-raw`) with the script `process_frames.py`.  [Algorithm docs](docs/PROCESS_FRAMES_ALGORITHM.md)
 ![Frame process to seperate Mask and Frame](docs/process-frames-graphic.png)  
 
-**Algorithm Overview**
-
-#### Step 1: Normalize Image
-- Load PNG and convert to RGBA
-- Extract alpha channel (0-255 range)
-
-#### Step 2: Classify Pixels by Opacity
-- **Transparent** (α ≤ 10): Screen interior
-- **Solid** (α ≥ 245): Device frame
-- **Edge/anti-aliased**: Everything in between
-
-#### Step 3: Find Contiguous Transparent Regions
-- Connected-component labeling on transparency mask
-- Identify all transparent regions with their areas
-- Reject regions touching image borders (background)
-- Reject tiny regions (holes, speaker grills, < 5000 pixels)
-
-#### Step 4: Select Screen Candidate
-Chooses the region with:
-- Largest area
-- Aspect ratio within 1.3-2.5 range (phones & tablets)
-- Fully enclosed by opaque pixels
-
-#### Step 5-6: Extract Bounds & Contour
-- Calculate minX, minY, maxX, maxY of selected region
-- Generate bounding box
-- Extract precise screen contour using edge detection
-
-#### Step 7: Generate Screen Mask
-- Create blank image (frame size)
-- Fill detected contour with white (255)
-- Fill background with black (0)
-- Feather inward by ~1px to avoid edge bleed
-
-
-# Installation
-```
-pip install -r requirements.txt
-python process_frames.py
-```
-
-By default, `process_frames.py` is incremental: it only processes PNGs that are new or changed since their generated outputs were last written, and it prunes generated outputs for raw PNGs that were removed or renamed.
-
-To fully regenerate all outputs, delete `device-frames-output` and run `python process_frames.py` again.
 
 # Contributing
 Please add more device frames to expand the dataset.
