@@ -15,10 +15,10 @@ START_HEADINGS = [
 ]
 
 CATEGORY_ORDER = [
-    ("iOS", "iOS"),
-    ("iPad", "iPad"),
-    ("android-phone", "Android Phones"),
-    ("android-tablet", "Android Tablets"),
+    ("Apple iPhone", "Apple iPhone"),
+    ("Apple iPad", "Apple iPad"),
+    ("Android Phone", "Android Phone"),
+    ("Android Tablet", "Android Tablet"),
 ]
 
 
