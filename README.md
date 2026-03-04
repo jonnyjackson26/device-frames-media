@@ -61,6 +61,8 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
 
  - 8
    - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Space%20Grey)
+ - 13
+   - [Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13/Blue), [Midnight](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13/Midnight), [Pink](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13/Pink), [Red](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13/Red), [Starlight](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13/Starlight)
  - 13 mini
    - [Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Black), [Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Blue), [Pink](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Pink), [Product (RED)](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Product%20%28RED%29), [Starlight](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Starlight)
  - 14 Pro Max

@@ -1002,6 +1002,78 @@
     }
   },
   "apple-iphone": {
+    "13": {
+      "blue": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Blue/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Blue/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1170,
+          "height": 2532
+        },
+        "frameSize": {
+          "width": 1570,
+          "height": 2932
+        }
+      },
+      "midnight": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Midnight/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Midnight/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1170,
+          "height": 2532
+        },
+        "frameSize": {
+          "width": 1570,
+          "height": 2932
+        }
+      },
+      "pink": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Pink/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Pink/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1170,
+          "height": 2532
+        },
+        "frameSize": {
+          "width": 1570,
+          "height": 2932
+        }
+      },
+      "red": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Red/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Red/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1170,
+          "height": 2532
+        },
+        "frameSize": {
+          "width": 1570,
+          "height": 2932
+        }
+      },
+      "starlight": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Starlight/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Starlight/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1170,
+          "height": 2532
+        },
+        "frameSize": {
+          "width": 1570,
+          "height": 2932
+        }
+      }
+    },
     "13-mini": {
       "black": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13%20mini/Black/frame.png",
