@@ -1871,6 +1871,50 @@
           "height": 2996
         }
       }
+    },
+    "deleet-me": {
+      "gold": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Gold/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 280,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 950,
+          "height": 1894
+        }
+      },
+      "silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Silver/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 280,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 950,
+          "height": 1894
+        }
+      },
+      "space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Space%20Grey/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 280,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 950,
+          "height": 1894
+        }
+      }
     }
   }
 }

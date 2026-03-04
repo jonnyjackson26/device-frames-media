@@ -83,6 +83,8 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
    - [Cosmic Orange](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Cosmic%20Orange), [Deep Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Deep%20Blue), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Silver)
  - Air
    - [Cloud White](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Cloud%20White), [Light Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Light%20Gold), [Sky Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Sky%20Blue), [Space Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Space%20Black)
+ - DELEET ME
+   - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Space%20Grey)
 
 **Apple iPad:**
 
