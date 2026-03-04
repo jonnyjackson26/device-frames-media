@@ -1002,6 +1002,64 @@
     }
   },
   "apple-iphone": {
+    "12-pro-max": {
+      "gold": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Gold/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1284,
+          "height": 2778
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3178
+        }
+      },
+      "graphite": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Graphite/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Graphite/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1284,
+          "height": 2778
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3178
+        }
+      },
+      "pacific-blue": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Pacific%20Blue/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Pacific%20Blue/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1284,
+          "height": 2778
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3178
+        }
+      },
+      "silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Silver/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1284,
+          "height": 2778
+        },
+        "frameSize": {
+          "width": 1684,
+          "height": 3178
+        }
+      }
+    },
     "13": {
       "blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Blue/frame.png",
