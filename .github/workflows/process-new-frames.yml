@@ -7,7 +7,7 @@ on:
     paths:
       - "device-frames-raw/**"
       - "process_frames.py"
-      - "scripts/update_readme_device_list.py"
+      - "frame_processor/**"
       - "requirements.txt"
       - ".github/workflows/process-new-frames.yml"
   workflow_dispatch:
@@ -65,15 +65,11 @@ jobs:
           
           echo "count=$(echo "$CHANGED" | wc -l)" >> $GITHUB_OUTPUT
 
-      - name: Process changed frame assets
-        if: steps.changed.outputs.count > 0
+      - name: Process changed frame assets and update README
         env:
           CHANGED_FILES: ${{ steps.changed.outputs.changed }}
           DELETED_FILES: ${{ steps.changed.outputs.deleted }}
-        run: python scripts/process_changed_files.py
-
-      - name: Update README device list
-        run: python scripts/update_readme_device_list.py
+        run: python process_frames.py
 
       - name: Commit generated changes
         env:

@@ -25,21 +25,26 @@ def _is_output_up_to_date(input_path: Path, output_dir: Path) -> bool:
     return oldest_output_mtime >= input_mtime
 
 
-def discover_unprocessed_frames(input_root: Path, output_root: Path) -> list[Path]:
+def discover_unprocessed_frames(input_root: Path, output_root: Path, force: bool = False) -> list[Path]:
     """Find all PNG frames that need processing.
-    
+
+    Args:
+        input_root: Root of raw frames directory.
+        output_root: Root of output directory.
+        force: When True, return all frames regardless of output freshness.
+
     Returns list of PNG paths that either have no output or stale output.
     """
-    unprocessed_frames: list[Path] = []
+    frames: list[Path] = []
 
     for png_path in sorted(input_root.rglob("*.png")):
         relative_path = png_path.relative_to(input_root)
         output_dir = output_root / relative_path.parent / relative_path.stem
 
-        if not _is_output_up_to_date(png_path, output_dir):
-            unprocessed_frames.append(png_path)
+        if force or not _is_output_up_to_date(png_path, output_dir):
+            frames.append(png_path)
 
-    return unprocessed_frames
+    return frames
 
 
 def process_frame_list(png_paths: list[Path], output_root: Path) -> tuple[int, int]:
@@ -79,5 +84,3 @@ def process_frame_list(png_paths: list[Path], output_root: Path) -> tuple[int, i
             failed_count += 1
 
     return processed_count, failed_count
-
-    return processed_count > 0 or failed_count > 0 or pruned_count > 0

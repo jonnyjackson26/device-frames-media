@@ -1,13 +1,14 @@
-#!/usr/bin/env python3
-from pathlib import Path
+"""Update the README device list section from the output directory."""
+
 import re
+from pathlib import Path
 from urllib.parse import quote
 
-WORKSPACE_ROOT = Path(__file__).resolve().parent.parent
-README_PATH = WORKSPACE_ROOT / "README.md"
-OUTPUT_ROOT = WORKSPACE_ROOT / "device-frames-output"
+from .common import logger
 
-GITHUB_REPO_BASE = "https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output"
+GITHUB_REPO_BASE = (
+    "https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output"
+)
 
 START_HEADINGS = [
     "# List of Devices and Varations",
@@ -22,16 +23,16 @@ CATEGORY_ORDER = [
 ]
 
 
-def natural_sort_key(value: str):
+def _natural_sort_key(value: str):
     parts = re.split(r"(\d+)", value.lower())
     return [int(part) if part.isdigit() else part for part in parts]
 
 
-def generate_device_list_section() -> str:
+def _generate_device_list_section(output_root: Path) -> str:
     lines = ["# List of Devices and Variations"]
 
     for directory_name, display_name in CATEGORY_ORDER:
-        category_path = OUTPUT_ROOT / directory_name
+        category_path = output_root / directory_name
         if not category_path.exists() or not category_path.is_dir():
             continue
 
@@ -40,25 +41,24 @@ def generate_device_list_section() -> str:
 
         device_models = sorted(
             [path for path in category_path.iterdir() if path.is_dir()],
-            key=lambda path: natural_sort_key(path.name),
+            key=lambda path: _natural_sort_key(path.name),
         )
 
         for model_path in device_models:
             variant_paths = sorted(
                 [path for path in model_path.iterdir() if path.is_dir()],
-                key=lambda path: natural_sort_key(path.name),
+                key=lambda path: _natural_sort_key(path.name),
             )
 
             if not variant_paths:
                 continue
 
-            # Create GitHub links for each variant
             variant_links = []
             for variant_path in variant_paths:
                 github_path = f"{directory_name}/{model_path.name}/{variant_path.name}"
                 github_url = f"{GITHUB_REPO_BASE}/{quote(github_path, safe='/')}"
                 variant_links.append(f"[{variant_path.name}]({github_url})")
-            
+
             lines.append(f" - {model_path.name}")
             lines.append(f"   - {', '.join(variant_links)}")
 
@@ -67,8 +67,12 @@ def generate_device_list_section() -> str:
     return "\n".join(lines).rstrip() + "\n"
 
 
-def update_readme_device_list() -> bool:
-    readme_content = README_PATH.read_text(encoding="utf-8")
+def update_readme(output_root: Path, readme_path: Path) -> bool:
+    """Regenerate the device list section in README.md.
+
+    Returns True if the file was changed.
+    """
+    readme_content = readme_path.read_text(encoding="utf-8")
     lines = readme_content.splitlines()
 
     start_index = None
@@ -78,17 +82,16 @@ def update_readme_device_list() -> bool:
             break
 
     if start_index is None:
-        raise ValueError("Could not find 'List of Devices and Variations' section in README.md")
+        logger.warning("Could not find 'List of Devices and Variations' section in README.md — skipping")
+        return False
 
-    updated_content = "\n".join(lines[:start_index]).rstrip() + "\n\n" + generate_device_list_section()
+    new_section = _generate_device_list_section(output_root)
+    updated_content = "\n".join(lines[:start_index]).rstrip() + "\n\n" + new_section
 
     if updated_content != readme_content:
-        README_PATH.write_text(updated_content, encoding="utf-8")
+        readme_path.write_text(updated_content, encoding="utf-8")
+        logger.info(f"Updated README: {readme_path}")
         return True
 
+    logger.info("README already up to date")
     return False
-
-
-if __name__ == "__main__":
-    changed = update_readme_device_list()
-    print("README updated" if changed else "README already up to date")
