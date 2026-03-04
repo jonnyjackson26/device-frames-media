@@ -86,16 +86,20 @@ def main() -> int:
         png_paths = _resolve_explicit_files(args.files)
         mode_label = f"{len(png_paths)} explicit file(s)"
     else:
-        # Check CHANGED_FILES env var (set by GitHub Actions)
-        env_files = os.environ.get("CHANGED_FILES", "").strip()
-        if env_files and not args.force_all:
-            file_list = env_files.splitlines() if "\n" in env_files else env_files.split()
-            png_paths = _resolve_explicit_files([f.strip() for f in file_list if f.strip()])
+        # Check CHANGED_FILES env var (set by GitHub Actions).
+        # Use `get` with sentinel to distinguish "not set" from "set but empty":
+        #   None  → local dev, fall back to mtime-based discovery
+        #   ""    → CI run where no raw files changed; process nothing
+        #   "..." → CI run with specific changed files
+        env_value = os.environ.get("CHANGED_FILES")  # None if var is absent
+        if env_value is not None and not args.force_all:
+            file_list = [f.strip() for f in env_value.splitlines() if f.strip()]
+            png_paths = _resolve_explicit_files(file_list)
             mode_label = f"{len(png_paths)} file(s) from CHANGED_FILES"
         else:
-            # Auto-discover: changed only (default) or all (--all flag)
+            # Local dev: mtime-based discovery (or --all to skip mtime check)
             png_paths = discover_unprocessed_frames(FRAMES_INPUT, FRAMES_OUTPUT, force=args.force_all)
-            mode_label = "all frames" if args.force_all else "changed frames"
+            mode_label = "all frames" if args.force_all else "changed frames (mtime)"
 
     logger.info(f"Mode: {mode_label}")
 

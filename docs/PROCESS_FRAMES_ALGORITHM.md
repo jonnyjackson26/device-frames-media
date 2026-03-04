@@ -25,7 +25,7 @@ frame_processor/
   pipeline.py              ← file discovery & orchestration
   processor.py             ← core image analysis (DeviceFrameProcessor)
   indexer.py               ← generates device-frames-output/index.json
-  readme.py                ← updates README device list section
+  readme_updater.py        ← updates README device list section
   models.py                ← ScreenBounds, FrameTemplate dataclasses
   common.py                ← shared logger & constants
 ```
