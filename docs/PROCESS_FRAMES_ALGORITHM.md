@@ -20,7 +20,6 @@ python process_frames.py [OPTIONS] [FILE ...]
 | `python process_frames.py --all` | Force-reprocess every frame regardless of modification time |
 | `python process_frames.py f1.png f2.png ...` | Process explicit files (used by GitHub Actions) |
 | `CHANGED_FILES="f1\nf2" python process_frames.py` | Explicit files via environment variable (GitHub Actions) |
-| add `--skip-readme` | Skip the README device list update step |
 
 ## Package Structure
 

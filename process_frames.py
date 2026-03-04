@@ -13,9 +13,6 @@ Usage
 # or explicit args):
     python process_frames.py "device-frames-raw/Apple iPhone/16/Black.png" ...
     CHANGED_FILES="file1.png file2.png" python process_frames.py
-
-# Skip the README update step:
-    python process_frames.py --skip-readme
 """
 
 import argparse
@@ -70,11 +67,6 @@ def main() -> int:
         dest="force_all",
         help="Reprocess all frames, ignoring modification times.",
     )
-    parser.add_argument(
-        "--skip-readme",
-        action="store_true",
-        help="Skip updating the README device list.",
-    )
     args = parser.parse_args()
 
     if not FRAMES_INPUT.exists():
@@ -126,8 +118,6 @@ def main() -> int:
             else:
                 logger.info(f"No output directory to remove for: {rel}")
 
-    needs_index_update = bool(png_paths) or deleted_count > 0
-
     if not png_paths:
         logger.info("No frames need processing")
     else:
@@ -141,13 +131,11 @@ def main() -> int:
         if failed_count > 0:
             return 1
 
-    if needs_index_update:
-        logger.info("Generating index.json")
-        generate_index_file(FRAMES_OUTPUT)
+    logger.info("Generating index.json")
+    generate_index_file(FRAMES_OUTPUT)
 
     # ── Update README ────────────────────────────────────────────────────────
-    if not args.skip_readme:
-        update_readme(FRAMES_OUTPUT, README_PATH)
+    update_readme(FRAMES_OUTPUT, README_PATH)
 
     return 0
 
