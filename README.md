@@ -61,8 +61,6 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
 
  - 8
    - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Space%20Grey)
- - 8 copy
-   - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8%20copy/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8%20copy/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8%20copy/Space%20Grey)
  - 13 mini
    - [Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Black), [Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Blue), [Pink](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Pink), [Product (RED)](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Product%20%28RED%29), [Starlight](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/13%20mini/Starlight)
  - 14 Pro Max
@@ -83,8 +81,6 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
    - [Cosmic Orange](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Cosmic%20Orange), [Deep Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Deep%20Blue), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Silver)
  - Air
    - [Cloud White](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Cloud%20White), [Light Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Light%20Gold), [Sky Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Sky%20Blue), [Space Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/Air/Space%20Black)
- - DELEET ME
-   - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/DELEET%20ME/Space%20Grey)
 
 **Apple iPad:**
 
@@ -115,12 +111,6 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
    - [Hazel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%209%20Pro/Hazel), [Obsidian](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%209%20Pro/Obsidian), [Rose Quartz](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%209%20Pro/Rose%20Quartz)
  - Pixel 9 Pro XL
    - [Hazel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%209%20Pro%20XL/Hazel), [Obsidian](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%209%20Pro%20XL/Obsidian), [Rose Quartz](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%209%20Pro%20XL/Rose%20Quartz)
- - Pixel 100
-   - [Hazel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%20100/Hazel), [Obsidian](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%20100/Obsidian), [Rose Quartz](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%20100/Rose%20Quartz)
- - Pixel 1000
-   - [Hazel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%201000/Hazel), [Obsidian](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%201000/Obsidian), [Rose Quartz](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%201000/Rose%20Quartz)
- - Pixel 1000 copy
-   - [Hazel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%201000%20copy/Hazel), [Obsidian](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%201000%20copy/Obsidian), [Rose Quartz](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Pixel%201000%20copy/Rose%20Quartz)
  - Samsung Galaxy S21
    - [Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/Black), [Pink](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/Pink), [Violet](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/Violet), [White](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/White)
 
