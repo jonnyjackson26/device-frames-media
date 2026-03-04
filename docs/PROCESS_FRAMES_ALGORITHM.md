@@ -1,5 +1,11 @@
 # Process Frames — Architecture & Algorithm
 
+
+## Installation
+```
+pip install -r requirements.txt
+```
+
 ## Entry Point
 
 All processing is driven by a single script:
