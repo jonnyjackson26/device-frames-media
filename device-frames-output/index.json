@@ -1770,6 +1770,50 @@
         }
       }
     },
+    "8-copy": {
+      "gold": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20copy/Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20copy/Gold/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 280,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 950,
+          "height": 1894
+        }
+      },
+      "silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20copy/Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20copy/Silver/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 280,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 950,
+          "height": 1894
+        }
+      },
+      "space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20copy/Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20copy/Space%20Grey/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 280,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 950,
+          "height": 1894
+        }
+      }
+    },
     "air": {
       "cloud-white": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/Air/Cloud%20White/frame.png",
