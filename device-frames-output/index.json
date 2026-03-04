@@ -1724,6 +1724,64 @@
         }
       }
     },
+    "6s": {
+      "gold": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Gold/mask.png",
+        "screen": {
+          "x": 120,
+          "y": 300,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 990,
+          "height": 1934
+        }
+      },
+      "rose-gold": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Rose%20Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Rose%20Gold/mask.png",
+        "screen": {
+          "x": 120,
+          "y": 300,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 990,
+          "height": 1934
+        }
+      },
+      "silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Silver/mask.png",
+        "screen": {
+          "x": 120,
+          "y": 300,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 990,
+          "height": 1934
+        }
+      },
+      "space-gray": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Space%20Gray/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Space%20Gray/mask.png",
+        "screen": {
+          "x": 120,
+          "y": 300,
+          "width": 750,
+          "height": 1334
+        },
+        "frameSize": {
+          "width": 990,
+          "height": 1934
+        }
+      }
+    },
     "8": {
       "gold": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8/Gold/frame.png",
@@ -1765,6 +1823,50 @@
         "frameSize": {
           "width": 950,
           "height": 1894
+        }
+      }
+    },
+    "8-plus": {
+      "gold": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Gold/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Gold/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 400,
+          "width": 1242,
+          "height": 2208
+        },
+        "frameSize": {
+          "width": 1642,
+          "height": 3008
+        }
+      },
+      "silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Silver/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 400,
+          "width": 1242,
+          "height": 2208
+        },
+        "frameSize": {
+          "width": 1642,
+          "height": 3008
+        }
+      },
+      "space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Space%20Grey/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 400,
+          "width": 1242,
+          "height": 2208
+        },
+        "frameSize": {
+          "width": 1642,
+          "height": 3008
         }
       }
     },

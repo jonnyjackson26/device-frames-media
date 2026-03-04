@@ -1,0 +1,14 @@
+{
+  "frame": "frame.png",
+  "mask": "mask.png",
+  "screen": {
+    "x": 200,
+    "y": 400,
+    "width": 1242,
+    "height": 2208
+  },
+  "frameSize": {
+    "width": 1642,
+    "height": 3008
+  }
+}

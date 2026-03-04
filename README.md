@@ -59,8 +59,12 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
 # List of Devices and Variations
 **Apple iPhone:**
 
+ - 6s
+   - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/6s/Gold), [Rose Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/6s/Rose%20Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/6s/Silver), [Space Gray](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/6s/Space%20Gray)
  - 8
    - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8/Space%20Grey)
+ - 8 Plus
+   - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8%20Plus/Gold), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8%20Plus/Silver), [Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/8%20Plus/Space%20Grey)
  - 12 Pro Max
    - [Gold](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Gold), [Graphite](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Graphite), [Pacific Blue](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Pacific%20Blue), [Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Silver)
  - 13
