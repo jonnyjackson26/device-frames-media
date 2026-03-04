@@ -41,20 +41,24 @@ jobs:
           ADDED=$(git diff HEAD~1 HEAD --name-only --diff-filter=A -- device-frames-raw/ || echo "")
           MODIFIED=$(git diff HEAD~1 HEAD --name-only --diff-filter=M -- device-frames-raw/ || echo "")
           DELETED=$(git diff HEAD~1 HEAD --name-only --diff-filter=D -- device-frames-raw/ || echo "")
-          RENAMED=$(git diff HEAD~1 HEAD --name-only --diff-filter=R -- device-frames-raw/ || echo "")
+
+          # For renames: extract old names (deleted) and new names (to process) separately
+          RENAMED_STATUS=$(git diff HEAD~1 HEAD --name-status --diff-filter=R -- device-frames-raw/ || echo "")
+          RENAMED_OLD=$(echo "$RENAMED_STATUS" | awk '{print $2}' | grep -v '^$' || true)
+          RENAMED_NEW=$(echo "$RENAMED_STATUS" | awk '{print $3}' | grep -v '^$' || true)
 
           ADDED=$(echo "$ADDED" | grep -v '^$' | sort -u || true)
-          
-          CHANGED="${ADDED}
-          ${MODIFIED}
-          ${RENAMED}"
-          CHANGED=$(echo "$CHANGED" | grep -v '^$' | sort -u || true)
-          
+
+          # Old renamed paths are effectively deleted outputs
+          DELETED=$(printf '%s\n%s' "$DELETED" "$RENAMED_OLD" | grep -v '^$' | sort -u || true)
+
+          CHANGED=$(printf '%s\n%s\n%s' "$ADDED" "$MODIFIED" "$RENAMED_NEW" | grep -v '^$' | sort -u || true)
+
           # Export as multiline output
           echo "changed<<EOF" >> $GITHUB_OUTPUT
           echo "$CHANGED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-          
+
           echo "deleted<<EOF" >> $GITHUB_OUTPUT
           echo "$DELETED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
@@ -62,7 +66,7 @@ jobs:
           echo "added<<EOF" >> $GITHUB_OUTPUT
           echo "$ADDED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-          
+
           echo "count=$(echo "$CHANGED" | wc -l)" >> $GITHUB_OUTPUT
 
       - name: Process changed frame assets and update README
@@ -95,8 +99,8 @@ jobs:
             | grep -E '^device-frames-raw/.*\.png$' \
             | sed 's#^device-frames-raw/##' \
             | awk -F'/' '
-                NF >= 2 {
-                  device = $2
+                NF >= 3 {
+                  device = $1 " " $2
                   gsub(/[[:space:]]+/, " ", device)
                   print device
                 }

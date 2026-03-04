@@ -20,6 +20,7 @@ Usage
 
 import argparse
 import os
+import shutil
 import sys
 from pathlib import Path
 
@@ -103,14 +104,35 @@ def main() -> int:
 
     logger.info(f"Mode: {mode_label}")
 
+    # ── Handle deleted / renamed raw frames ─────────────────────────────────
+    # DELETED_FILES is set by GitHub Actions to include genuinely deleted files
+    # AND the old paths of any renamed files so their output dirs get removed.
+    deleted_env = os.environ.get("DELETED_FILES")
+    deleted_count = 0
+    if deleted_env:
+        deleted_list = [f.strip() for f in deleted_env.splitlines() if f.strip()]
+        for file_path in deleted_list:
+            abs_path = (WORKSPACE_ROOT / file_path).resolve()
+            try:
+                rel = abs_path.relative_to(FRAMES_INPUT)
+            except ValueError:
+                logger.warning(f"Skipping deleted file outside device-frames-raw: {file_path}")
+                continue
+            output_dir = FRAMES_OUTPUT / rel.parent / rel.stem
+            if output_dir.exists():
+                logger.info(f"Removing output for deleted/renamed frame: {rel}")
+                shutil.rmtree(output_dir)
+                deleted_count += 1
+            else:
+                logger.info(f"No output directory to remove for: {rel}")
+
+    needs_index_update = bool(png_paths) or deleted_count > 0
+
     if not png_paths:
         logger.info("No frames need processing")
     else:
         logger.info(f"Processing {len(png_paths)} frame(s)")
         processed_count, failed_count = process_frame_list(png_paths, FRAMES_OUTPUT)
-
-        logger.info("Generating index.json")
-        generate_index_file(FRAMES_OUTPUT)
 
         logger.info(f"\n{'='*60}")
         logger.info(f"Summary: {processed_count} processed, {failed_count} failed")
@@ -118,6 +140,10 @@ def main() -> int:
 
         if failed_count > 0:
             return 1
+
+    if needs_index_update:
+        logger.info("Generating index.json")
+        generate_index_file(FRAMES_OUTPUT)
 
     # ── Update README ────────────────────────────────────────────────────────
     if not args.skip_readme:
