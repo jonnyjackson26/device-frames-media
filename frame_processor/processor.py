@@ -6,6 +6,7 @@ import numpy as np
 from PIL import Image
 from scipy import ndimage
 
+from .color_extractor import extract_frame_hex_color
 from .common import (
     ALPHA_CLEAR,
     MAX_MASK_COVERAGE,
@@ -256,11 +257,15 @@ class DeviceFrameProcessor:
         mask_image.save(mask_path, "PNG")
         logger.info(f"Saved: {mask_path}")
 
+        hex_color = extract_frame_hex_color(frame_path)
+        logger.info(f"Frame hex color: {hex_color}")
+
         template = FrameTemplate(
             frame="frame.png",
             mask="mask.png",
             screen=bounds.to_dict(),
             frameSize={"width": frame_width, "height": frame_height},
+            hexColor=hex_color,
         )
 
         template_path = self.output_path / "template.json"

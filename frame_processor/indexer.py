@@ -56,6 +56,7 @@ def generate_index_file(
             "mask": _build_asset_url(base_url, relative_dir, "mask.png"),
             "screen": template_data.get("screen", {}),
             "frameSize": template_data.get("frameSize", {}),
+            "hexColor": template_data.get("hexColor", ""),
         }
 
     index_path = output_root / "index.json"

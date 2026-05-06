@@ -28,6 +28,7 @@ class FrameTemplate:
     mask: str
     screen: Dict
     frameSize: Dict
+    hexColor: str
 
     def to_dict(self) -> Dict:
         return {
@@ -35,4 +36,5 @@ class FrameTemplate:
             "mask": self.mask,
             "screen": self.screen,
             "frameSize": self.frameSize,
+            "hexColor": self.hexColor,
         }

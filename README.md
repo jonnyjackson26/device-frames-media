@@ -40,7 +40,8 @@ and [`index.json`](https://raw.githubusercontent.com/jonnyjackson26/device-frame
           "frameSize": {
             "width": 1520,
             "height": 3068
-          }
+          },
+          "hexColor": "#FABA88"
         }
       }
     }

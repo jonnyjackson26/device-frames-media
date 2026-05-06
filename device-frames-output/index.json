@@ -13,7 +13,8 @@
         "frameSize": {
           "width": 1511,
           "height": 2896
-        }
+        },
+        "hexColor": "#696866"
       }
     },
     "pixel-8-pro": {
@@ -29,7 +30,8 @@
         "frameSize": {
           "width": 1621,
           "height": 3135
-        }
+        },
+        "hexColor": "#464749"
       },
       "blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%208%20Pro/Blue/frame.png",
@@ -43,7 +45,8 @@
         "frameSize": {
           "width": 1621,
           "height": 3135
-        }
+        },
+        "hexColor": "#87ACC5"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%208%20Pro/Silver/frame.png",
@@ -57,7 +60,8 @@
         "frameSize": {
           "width": 1621,
           "height": 3135
-        }
+        },
+        "hexColor": "#696868"
       }
     },
     "pixel-9-pro": {
@@ -73,7 +77,8 @@
         "frameSize": {
           "width": 1620,
           "height": 3136
-        }
+        },
+        "hexColor": "#A6ABA6"
       },
       "obsidian": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%209%20Pro/Obsidian/frame.png",
@@ -87,7 +92,8 @@
         "frameSize": {
           "width": 1620,
           "height": 3136
-        }
+        },
+        "hexColor": "#A7A8A8"
       },
       "rose-quartz": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%209%20Pro/Rose%20Quartz/frame.png",
@@ -101,7 +107,8 @@
         "frameSize": {
           "width": 1620,
           "height": 3136
-        }
+        },
+        "hexColor": "#D6BBC5"
       }
     },
     "pixel-9-pro-xl": {
@@ -117,7 +124,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3272
-        }
+        },
+        "hexColor": "#A6ABA6"
       },
       "obsidian": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%209%20Pro%20XL/Obsidian/frame.png",
@@ -131,7 +139,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3272
-        }
+        },
+        "hexColor": "#A8A9A9"
       },
       "rose-quartz": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Pixel%209%20Pro%20XL/Rose%20Quartz/frame.png",
@@ -145,7 +154,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3272
-        }
+        },
+        "hexColor": "#E9D3DB"
       }
     },
     "samsung-galaxy-s21": {
@@ -161,7 +171,8 @@
         "frameSize": {
           "width": 1480,
           "height": 2800
-        }
+        },
+        "hexColor": "#575757"
       },
       "pink": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/Pink/frame.png",
@@ -175,7 +186,8 @@
         "frameSize": {
           "width": 1480,
           "height": 2800
-        }
+        },
+        "hexColor": "#C5ADA9"
       },
       "violet": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/Violet/frame.png",
@@ -189,7 +201,8 @@
         "frameSize": {
           "width": 1480,
           "height": 2800
-        }
+        },
+        "hexColor": "#916C66"
       },
       "white": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Phone/Samsung%20Galaxy%20S21/White/frame.png",
@@ -203,7 +216,8 @@
         "frameSize": {
           "width": 1480,
           "height": 2800
-        }
+        },
+        "hexColor": "#979797"
       }
     }
   },
@@ -221,7 +235,8 @@
         "frameSize": {
           "width": 3147,
           "height": 2131
-        }
+        },
+        "hexColor": "#C3C5BF"
       },
       "porcelain": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Android%20Tablet/Pixel%20Tablet/Porcelain/frame.png",
@@ -235,7 +250,8 @@
         "frameSize": {
           "width": 3147,
           "height": 2131
-        }
+        },
+        "hexColor": "#F0F0F0"
       }
     },
     "samsung-galaxy-tab-s11-ultra": {
@@ -251,7 +267,8 @@
         "frameSize": {
           "width": 3360,
           "height": 2248
-        }
+        },
+        "hexColor": "#979799"
       }
     }
   },
@@ -269,7 +286,8 @@
         "frameSize": {
           "width": 2040,
           "height": 2760
-        }
+        },
+        "hexColor": "#A3BAC7"
       },
       "blue-2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Blue%202/frame.png",
@@ -283,7 +301,8 @@
         "frameSize": {
           "width": 2760,
           "height": 2040
-        }
+        },
+        "hexColor": "#A2BAC7"
       },
       "green": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Green/frame.png",
@@ -297,7 +316,8 @@
         "frameSize": {
           "width": 2040,
           "height": 2760
-        }
+        },
+        "hexColor": "#ABC3AA"
       },
       "green-2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Green%202/frame.png",
@@ -311,7 +331,8 @@
         "frameSize": {
           "width": 2760,
           "height": 2040
-        }
+        },
+        "hexColor": "#ABC3AA"
       },
       "rose-gold": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Rose%20Gold/frame.png",
@@ -325,7 +346,8 @@
         "frameSize": {
           "width": 2040,
           "height": 2760
-        }
+        },
+        "hexColor": "#BA928B"
       },
       "rose-gold-2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Rose%20Gold%202/frame.png",
@@ -339,7 +361,8 @@
         "frameSize": {
           "width": 2760,
           "height": 2040
-        }
+        },
+        "hexColor": "#BA928A"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Silver/frame.png",
@@ -353,7 +376,8 @@
         "frameSize": {
           "width": 2040,
           "height": 2760
-        }
+        },
+        "hexColor": "#C5C7C8"
       },
       "silver-2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Silver%202/frame.png",
@@ -367,7 +391,8 @@
         "frameSize": {
           "width": 2760,
           "height": 2040
-        }
+        },
+        "hexColor": "#C5C7C8"
       },
       "space-grey": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Space%20Grey/frame.png",
@@ -381,7 +406,8 @@
         "frameSize": {
           "width": 2040,
           "height": 2760
-        }
+        },
+        "hexColor": "#636569"
       },
       "space-grey-2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%20-%2010.9%20M1/Space%20Grey%202/frame.png",
@@ -395,7 +421,8 @@
         "frameSize": {
           "width": 2760,
           "height": 2040
-        }
+        },
+        "hexColor": "#636469"
       }
     },
     "ipad-air-11-m2-m3": {
@@ -411,7 +438,8 @@
         "frameSize": {
           "width": 2600,
           "height": 1880
-        }
+        },
+        "hexColor": "#748788"
       },
       "blue2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Blue2/frame.png",
@@ -425,7 +453,8 @@
         "frameSize": {
           "width": 1880,
           "height": 2600
-        }
+        },
+        "hexColor": "#748788"
       },
       "lavender": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Lavender/frame.png",
@@ -439,7 +468,8 @@
         "frameSize": {
           "width": 2600,
           "height": 1880
-        }
+        },
+        "hexColor": "#847B88"
       },
       "lavender2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Lavender2/frame.png",
@@ -453,7 +483,8 @@
         "frameSize": {
           "width": 1880,
           "height": 2600
-        }
+        },
+        "hexColor": "#847B88"
       },
       "space-gray": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Space%20Gray/frame.png",
@@ -467,7 +498,8 @@
         "frameSize": {
           "width": 2600,
           "height": 1880
-        }
+        },
+        "hexColor": "#565758"
       },
       "space-gray2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Space%20Gray2/frame.png",
@@ -481,7 +513,8 @@
         "frameSize": {
           "width": 1880,
           "height": 2600
-        }
+        },
+        "hexColor": "#565758"
       },
       "stardust": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Stardust/frame.png",
@@ -495,7 +528,8 @@
         "frameSize": {
           "width": 2600,
           "height": 1880
-        }
+        },
+        "hexColor": "#827D75"
       },
       "stardust2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2011%20M2%20%26%20M3/Stardust2/frame.png",
@@ -509,7 +543,8 @@
         "frameSize": {
           "width": 1880,
           "height": 2600
-        }
+        },
+        "hexColor": "#565758"
       }
     },
     "ipad-air-13-m2-m3": {
@@ -525,7 +560,8 @@
         "frameSize": {
           "width": 2248,
           "height": 2932
-        }
+        },
+        "hexColor": "#748788"
       },
       "blue2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Blue2/frame.png",
@@ -539,7 +575,8 @@
         "frameSize": {
           "width": 2932,
           "height": 2248
-        }
+        },
+        "hexColor": "#748788"
       },
       "lavender": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Lavender/frame.png",
@@ -553,7 +590,8 @@
         "frameSize": {
           "width": 2932,
           "height": 2248
-        }
+        },
+        "hexColor": "#847B88"
       },
       "lavender2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Lavender2/frame.png",
@@ -567,7 +605,8 @@
         "frameSize": {
           "width": 2248,
           "height": 2932
-        }
+        },
+        "hexColor": "#847B88"
       },
       "space-gray": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Space%20Gray/frame.png",
@@ -581,7 +620,8 @@
         "frameSize": {
           "width": 2932,
           "height": 2248
-        }
+        },
+        "hexColor": "#565758"
       },
       "space-gray2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Space%20Gray2/frame.png",
@@ -595,7 +635,8 @@
         "frameSize": {
           "width": 2248,
           "height": 2932
-        }
+        },
+        "hexColor": "#565758"
       },
       "stardust": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Stardust/frame.png",
@@ -609,7 +650,8 @@
         "frameSize": {
           "width": 2932,
           "height": 2248
-        }
+        },
+        "hexColor": "#827D75"
       },
       "stardust2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Air%2013%20M2%20%26%20M3/Stardust2/frame.png",
@@ -623,351 +665,8 @@
         "frameSize": {
           "width": 2248,
           "height": 2932
-        }
-      }
-    },
-    "ipad-pro-11-a12x-to-m2": {
-      "landscape-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2388,
-          "height": 1668
         },
-        "frameSize": {
-          "width": 2788,
-          "height": 2068
-        }
-      },
-      "landscape-silver-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2388,
-          "height": 1668
-        },
-        "frameSize": {
-          "width": 2788,
-          "height": 2068
-        }
-      },
-      "landscape-space-grey": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2388,
-          "height": 1668
-        },
-        "frameSize": {
-          "width": 2788,
-          "height": 2068
-        }
-      },
-      "landscape-space-grey-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2388,
-          "height": 1668
-        },
-        "frameSize": {
-          "width": 2788,
-          "height": 2068
-        }
-      },
-      "portrait-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 1668,
-          "height": 2388
-        },
-        "frameSize": {
-          "width": 2068,
-          "height": 2788
-        }
-      },
-      "portrait-silver-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 1668,
-          "height": 2388
-        },
-        "frameSize": {
-          "width": 2068,
-          "height": 2788
-        }
-      },
-      "portrait-space-grey": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 1668,
-          "height": 2388
-        },
-        "frameSize": {
-          "width": 2068,
-          "height": 2788
-        }
-      },
-      "portrait-space-grey-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 1668,
-          "height": 2388
-        },
-        "frameSize": {
-          "width": 2068,
-          "height": 2788
-        }
-      }
-    },
-    "ipad-pro-11-m4-m5": {
-      "landscape-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Silver/mask.png",
-        "screen": {
-          "x": 100,
-          "y": 100,
-          "width": 2420,
-          "height": 1668
-        },
-        "frameSize": {
-          "width": 2620,
-          "height": 1868
-        }
-      },
-      "landscape-space-black": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Space%20Black/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Space%20Black/mask.png",
-        "screen": {
-          "x": 100,
-          "y": 100,
-          "width": 2420,
-          "height": 1668
-        },
-        "frameSize": {
-          "width": 2620,
-          "height": 1868
-        }
-      },
-      "portrait-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Silver/mask.png",
-        "screen": {
-          "x": 99,
-          "y": 100,
-          "width": 1668,
-          "height": 2420
-        },
-        "frameSize": {
-          "width": 1868,
-          "height": 2620
-        }
-      },
-      "portrait-space-black": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Space%20Black/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Space%20Black/mask.png",
-        "screen": {
-          "x": 99,
-          "y": 100,
-          "width": 1668,
-          "height": 2420
-        },
-        "frameSize": {
-          "width": 1868,
-          "height": 2620
-        }
-      }
-    },
-    "ipad-pro-13-a12x-to-m2": {
-      "landscape-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2732,
-          "height": 2048
-        },
-        "frameSize": {
-          "width": 3132,
-          "height": 2448
-        }
-      },
-      "landscape-silver-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2732,
-          "height": 2048
-        },
-        "frameSize": {
-          "width": 3132,
-          "height": 2448
-        }
-      },
-      "landscape-space-grey": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2732,
-          "height": 2048
-        },
-        "frameSize": {
-          "width": 3132,
-          "height": 2448
-        }
-      },
-      "landscape-space-grey-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2732,
-          "height": 2048
-        },
-        "frameSize": {
-          "width": 3132,
-          "height": 2448
-        }
-      },
-      "portrait-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2048,
-          "height": 2732
-        },
-        "frameSize": {
-          "width": 2448,
-          "height": 3132
-        }
-      },
-      "portrait-silver-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2048,
-          "height": 2732
-        },
-        "frameSize": {
-          "width": 2448,
-          "height": 3132
-        }
-      },
-      "portrait-space-grey": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2048,
-          "height": 2732
-        },
-        "frameSize": {
-          "width": 2448,
-          "height": 3132
-        }
-      },
-      "portrait-space-grey-pencil": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 200,
-          "width": 2048,
-          "height": 2732
-        },
-        "frameSize": {
-          "width": 2448,
-          "height": 3132
-        }
-      }
-    },
-    "ipad-pro-13-m4-m5": {
-      "landscape-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Silver/mask.png",
-        "screen": {
-          "x": 100,
-          "y": 100,
-          "width": 2752,
-          "height": 2064
-        },
-        "frameSize": {
-          "width": 2952,
-          "height": 2264
-        }
-      },
-      "landscape-space-black": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Space%20Black/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Space%20Black/mask.png",
-        "screen": {
-          "x": 100,
-          "y": 100,
-          "width": 2752,
-          "height": 2064
-        },
-        "frameSize": {
-          "width": 2952,
-          "height": 2264
-        }
-      },
-      "portrait-silver": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Silver/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Silver/mask.png",
-        "screen": {
-          "x": 100,
-          "y": 100,
-          "width": 2064,
-          "height": 2752
-        },
-        "frameSize": {
-          "width": 2264,
-          "height": 2952
-        }
-      },
-      "portrait-space-black": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Space%20Black/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Space%20Black/mask.png",
-        "screen": {
-          "x": 100,
-          "y": 100,
-          "width": 2064,
-          "height": 2752
-        },
-        "frameSize": {
-          "width": 2264,
-          "height": 2952
-        }
+        "hexColor": "#827D75"
       }
     },
     "ipad-mini-8-3-a17-pro": {
@@ -983,7 +682,8 @@
         "frameSize": {
           "width": 2666,
           "height": 1888
-        }
+        },
+        "hexColor": "#ACA496"
       },
       "starlight2": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/frame.png",
@@ -997,7 +697,376 @@
         "frameSize": {
           "width": 1888,
           "height": 2666
-        }
+        },
+        "hexColor": "#ACA496"
+      }
+    },
+    "ipad-pro-11-a12x-to-m2": {
+      "landscape-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2388,
+          "height": 1668
+        },
+        "frameSize": {
+          "width": 2788,
+          "height": 2068
+        },
+        "hexColor": "#B5B6B8"
+      },
+      "landscape-silver-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2388,
+          "height": 1668
+        },
+        "frameSize": {
+          "width": 2788,
+          "height": 2068
+        },
+        "hexColor": "#FAFAFA"
+      },
+      "landscape-space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2388,
+          "height": 1668
+        },
+        "frameSize": {
+          "width": 2788,
+          "height": 2068
+        },
+        "hexColor": "#636469"
+      },
+      "landscape-space-grey-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2388,
+          "height": 1668
+        },
+        "frameSize": {
+          "width": 2788,
+          "height": 2068
+        },
+        "hexColor": "#FAFAFA"
+      },
+      "portrait-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1668,
+          "height": 2388
+        },
+        "frameSize": {
+          "width": 2068,
+          "height": 2788
+        },
+        "hexColor": "#B5B6B8"
+      },
+      "portrait-silver-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1668,
+          "height": 2388
+        },
+        "frameSize": {
+          "width": 2068,
+          "height": 2788
+        },
+        "hexColor": "#FAFAFA"
+      },
+      "portrait-space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1668,
+          "height": 2388
+        },
+        "frameSize": {
+          "width": 2068,
+          "height": 2788
+        },
+        "hexColor": "#636469"
+      },
+      "portrait-space-grey-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 1668,
+          "height": 2388
+        },
+        "frameSize": {
+          "width": 2068,
+          "height": 2788
+        },
+        "hexColor": "#FAFAFA"
+      }
+    },
+    "ipad-pro-11-m4-m5": {
+      "landscape-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Silver/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 100,
+          "width": 2420,
+          "height": 1668
+        },
+        "frameSize": {
+          "width": 2620,
+          "height": 1868
+        },
+        "hexColor": "#878889"
+      },
+      "landscape-space-black": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Space%20Black/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Landscape%20-%20Space%20Black/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 100,
+          "width": 2420,
+          "height": 1668
+        },
+        "frameSize": {
+          "width": 2620,
+          "height": 1868
+        },
+        "hexColor": "#393639"
+      },
+      "portrait-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Silver/mask.png",
+        "screen": {
+          "x": 99,
+          "y": 100,
+          "width": 1668,
+          "height": 2420
+        },
+        "frameSize": {
+          "width": 1868,
+          "height": 2620
+        },
+        "hexColor": "#878889"
+      },
+      "portrait-space-black": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Space%20Black/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20M4%20%26%20M5/Portrait%20-%20Space%20Black/mask.png",
+        "screen": {
+          "x": 99,
+          "y": 100,
+          "width": 1668,
+          "height": 2420
+        },
+        "frameSize": {
+          "width": 1868,
+          "height": 2620
+        },
+        "hexColor": "#393639"
+      }
+    },
+    "ipad-pro-13-a12x-to-m2": {
+      "landscape-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2732,
+          "height": 2048
+        },
+        "frameSize": {
+          "width": 3132,
+          "height": 2448
+        },
+        "hexColor": "#B5B6B8"
+      },
+      "landscape-silver-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2732,
+          "height": 2048
+        },
+        "frameSize": {
+          "width": 3132,
+          "height": 2448
+        },
+        "hexColor": "#FAFAFA"
+      },
+      "landscape-space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2732,
+          "height": 2048
+        },
+        "frameSize": {
+          "width": 3132,
+          "height": 2448
+        },
+        "hexColor": "#636469"
+      },
+      "landscape-space-grey-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2732,
+          "height": 2048
+        },
+        "frameSize": {
+          "width": 3132,
+          "height": 2448
+        },
+        "hexColor": "#636469"
+      },
+      "portrait-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2048,
+          "height": 2732
+        },
+        "frameSize": {
+          "width": 2448,
+          "height": 3132
+        },
+        "hexColor": "#B5B6B8"
+      },
+      "portrait-silver-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2048,
+          "height": 2732
+        },
+        "frameSize": {
+          "width": 2448,
+          "height": 3132
+        },
+        "hexColor": "#FAFAFA"
+      },
+      "portrait-space-grey": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2048,
+          "height": 2732
+        },
+        "frameSize": {
+          "width": 2448,
+          "height": 3132
+        },
+        "hexColor": "#636469"
+      },
+      "portrait-space-grey-pencil": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 200,
+          "width": 2048,
+          "height": 2732
+        },
+        "frameSize": {
+          "width": 2448,
+          "height": 3132
+        },
+        "hexColor": "#636469"
+      }
+    },
+    "ipad-pro-13-m4-m5": {
+      "landscape-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Silver/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 100,
+          "width": 2752,
+          "height": 2064
+        },
+        "frameSize": {
+          "width": 2952,
+          "height": 2264
+        },
+        "hexColor": "#878889"
+      },
+      "landscape-space-black": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Space%20Black/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Space%20Black/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 100,
+          "width": 2752,
+          "height": 2064
+        },
+        "frameSize": {
+          "width": 2952,
+          "height": 2264
+        },
+        "hexColor": "#393639"
+      },
+      "portrait-silver": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Silver/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Silver/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 100,
+          "width": 2064,
+          "height": 2752
+        },
+        "frameSize": {
+          "width": 2264,
+          "height": 2952
+        },
+        "hexColor": "#878889"
+      },
+      "portrait-space-black": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Space%20Black/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Space%20Black/mask.png",
+        "screen": {
+          "x": 100,
+          "y": 100,
+          "width": 2064,
+          "height": 2752
+        },
+        "frameSize": {
+          "width": 2264,
+          "height": 2952
+        },
+        "hexColor": "#393639"
       }
     }
   },
@@ -1015,7 +1084,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3178
-        }
+        },
+        "hexColor": "#C4AB85"
       },
       "graphite": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Graphite/frame.png",
@@ -1029,7 +1099,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3178
-        }
+        },
+        "hexColor": "#383833"
       },
       "pacific-blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Pacific%20Blue/frame.png",
@@ -1043,7 +1114,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3178
-        }
+        },
+        "hexColor": "#223846"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/12%20Pro%20Max/Silver/frame.png",
@@ -1057,7 +1129,8 @@
         "frameSize": {
           "width": 1684,
           "height": 3178
-        }
+        },
+        "hexColor": "#989B94"
       }
     },
     "13": {
@@ -1073,7 +1146,8 @@
         "frameSize": {
           "width": 1570,
           "height": 2932
-        }
+        },
+        "hexColor": "#4A7CA8"
       },
       "midnight": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Midnight/frame.png",
@@ -1087,7 +1161,8 @@
         "frameSize": {
           "width": 1570,
           "height": 2932
-        }
+        },
+        "hexColor": "#171C22"
       },
       "pink": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Pink/frame.png",
@@ -1101,7 +1176,8 @@
         "frameSize": {
           "width": 1570,
           "height": 2932
-        }
+        },
+        "hexColor": "#DCB6B8"
       },
       "red": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Red/frame.png",
@@ -1115,7 +1191,8 @@
         "frameSize": {
           "width": 1570,
           "height": 2932
-        }
+        },
+        "hexColor": "#991C19"
       },
       "starlight": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13/Starlight/frame.png",
@@ -1129,7 +1206,8 @@
         "frameSize": {
           "width": 1570,
           "height": 2932
-        }
+        },
+        "hexColor": "#F9F5F1"
       }
     },
     "13-mini": {
@@ -1145,7 +1223,8 @@
         "frameSize": {
           "width": 1280,
           "height": 2540
-        }
+        },
+        "hexColor": "#363739"
       },
       "blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13%20mini/Blue/frame.png",
@@ -1159,7 +1238,8 @@
         "frameSize": {
           "width": 1280,
           "height": 2540
-        }
+        },
+        "hexColor": "#5887AA"
       },
       "pink": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13%20mini/Pink/frame.png",
@@ -1173,7 +1253,8 @@
         "frameSize": {
           "width": 1280,
           "height": 2540
-        }
+        },
+        "hexColor": "#FAE6E5"
       },
       "product-red": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13%20mini/Product%20%28RED%29/frame.png",
@@ -1187,7 +1268,8 @@
         "frameSize": {
           "width": 1280,
           "height": 2540
-        }
+        },
+        "hexColor": "#D72A36"
       },
       "starlight": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/13%20mini/Starlight/frame.png",
@@ -1201,7 +1283,8 @@
         "frameSize": {
           "width": 1280,
           "height": 2540
-        }
+        },
+        "hexColor": "#D4CECA"
       }
     },
     "14-pro-max": {
@@ -1217,7 +1300,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#544458"
       },
       "deep-purple-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Deep%20Purple%20-%20Shadow/frame.png",
@@ -1231,7 +1315,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#544458"
       },
       "gold": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Gold/frame.png",
@@ -1245,7 +1330,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#907F59"
       },
       "gold-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Gold%20-%20Shadow/frame.png",
@@ -1259,7 +1345,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#907F59"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Silver/frame.png",
@@ -1273,7 +1360,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#7D7E7D"
       },
       "silver-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Silver%20-%20Shadow/frame.png",
@@ -1287,7 +1375,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#7D7E7D"
       },
       "space-black": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Space%20Black/frame.png",
@@ -1301,7 +1390,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#2A2A2A"
       },
       "space-black-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/14%20Pro%20Max/Space%20Black%20-%20Shadow/frame.png",
@@ -1315,7 +1405,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#2A2A2A"
       }
     },
     "15-pro-max": {
@@ -1331,7 +1422,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#28292A"
       },
       "blue-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/15%20Pro%20Max/Blue%20Titanium/frame.png",
@@ -1345,7 +1437,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#272E3A"
       },
       "natural-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/15%20Pro%20Max/Natural%20Titanium/frame.png",
@@ -1359,7 +1452,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#6A655C"
       },
       "white-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/15%20Pro%20Max/White%20Titanium/frame.png",
@@ -1373,7 +1467,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#CDCAC5"
       }
     },
     "16": {
@@ -1389,7 +1484,8 @@
         "frameSize": {
           "width": 1379,
           "height": 2756
-        }
+        },
+        "hexColor": "#373738"
       },
       "pink": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16/Pink/frame.png",
@@ -1403,7 +1499,8 @@
         "frameSize": {
           "width": 1379,
           "height": 2756
-        }
+        },
+        "hexColor": "#954B79"
       },
       "teal": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16/Teal/frame.png",
@@ -1417,7 +1514,8 @@
         "frameSize": {
           "width": 1379,
           "height": 2756
-        }
+        },
+        "hexColor": "#57757A"
       },
       "ultramarine": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16/Ultramarine/frame.png",
@@ -1431,7 +1529,8 @@
         "frameSize": {
           "width": 1379,
           "height": 2756
-        }
+        },
+        "hexColor": "#5868A7"
       },
       "white": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16/White/frame.png",
@@ -1445,7 +1544,8 @@
         "frameSize": {
           "width": 1379,
           "height": 2756
-        }
+        },
+        "hexColor": "#C7C7C7"
       }
     },
     "16-plus": {
@@ -1461,7 +1561,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#373737"
       },
       "pink": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Plus/Pink/frame.png",
@@ -1475,7 +1576,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#954B79"
       },
       "teal": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Plus/Teal/frame.png",
@@ -1489,7 +1591,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#57757A"
       },
       "ultramarine": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Plus/Ultramarine/frame.png",
@@ -1503,7 +1606,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#3B4777"
       },
       "white": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Plus/White/frame.png",
@@ -1517,7 +1621,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#C7C7C7"
       }
     },
     "16-pro": {
@@ -1533,7 +1638,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#272727"
       },
       "desert-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Pro/Desert%20Titanium/frame.png",
@@ -1547,7 +1653,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#363635"
       },
       "natural-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Pro/Natural%20Titanium/frame.png",
@@ -1561,7 +1668,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#272727"
       },
       "white-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Pro/White%20Titanium/frame.png",
@@ -1575,7 +1683,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#8A8785"
       }
     },
     "16-pro-max": {
@@ -1591,7 +1700,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#272727"
       },
       "desert-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Pro%20Max/Desert%20Titanium/frame.png",
@@ -1605,7 +1715,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#69554A"
       },
       "natural-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Pro%20Max/Natural%20Titanium/frame.png",
@@ -1619,7 +1730,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#282727"
       },
       "white-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/16%20Pro%20Max/White%20Titanium/frame.png",
@@ -1633,7 +1745,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#8A8785"
       }
     },
     "17-pro": {
@@ -1649,7 +1762,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#FABA88"
       },
       "deep-blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/17%20Pro/Deep%20Blue/frame.png",
@@ -1663,7 +1777,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#262A37"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/17%20Pro/Silver/frame.png",
@@ -1677,7 +1792,8 @@
         "frameSize": {
           "width": 1406,
           "height": 2822
-        }
+        },
+        "hexColor": "#E9E9E9"
       }
     },
     "17-pro-max": {
@@ -1693,7 +1809,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#FABA88"
       },
       "deep-blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Deep%20Blue/frame.png",
@@ -1707,7 +1824,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#252B38"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/17%20Pro%20Max/Silver/frame.png",
@@ -1721,7 +1839,8 @@
         "frameSize": {
           "width": 1520,
           "height": 3068
-        }
+        },
+        "hexColor": "#E9E9E9"
       }
     },
     "6s": {
@@ -1737,7 +1856,8 @@
         "frameSize": {
           "width": 990,
           "height": 1934
-        }
+        },
+        "hexColor": "#E7E8E9"
       },
       "rose-gold": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Rose%20Gold/frame.png",
@@ -1751,7 +1871,8 @@
         "frameSize": {
           "width": 990,
           "height": 1934
-        }
+        },
+        "hexColor": "#E7E8E9"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Silver/frame.png",
@@ -1765,7 +1886,8 @@
         "frameSize": {
           "width": 990,
           "height": 1934
-        }
+        },
+        "hexColor": "#E7E8E8"
       },
       "space-gray": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/6s/Space%20Gray/frame.png",
@@ -1779,7 +1901,8 @@
         "frameSize": {
           "width": 990,
           "height": 1934
-        }
+        },
+        "hexColor": "#74757A"
       }
     },
     "8": {
@@ -1795,7 +1918,8 @@
         "frameSize": {
           "width": 950,
           "height": 1894
-        }
+        },
+        "hexColor": "#F9F9F9"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8/Silver/frame.png",
@@ -1809,7 +1933,8 @@
         "frameSize": {
           "width": 950,
           "height": 1894
-        }
+        },
+        "hexColor": "#F8F8F9"
       },
       "space-grey": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8/Space%20Grey/frame.png",
@@ -1823,7 +1948,8 @@
         "frameSize": {
           "width": 950,
           "height": 1894
-        }
+        },
+        "hexColor": "#65656A"
       }
     },
     "8-plus": {
@@ -1839,7 +1965,8 @@
         "frameSize": {
           "width": 1642,
           "height": 3008
-        }
+        },
+        "hexColor": "#F5E4D9"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Silver/frame.png",
@@ -1853,7 +1980,8 @@
         "frameSize": {
           "width": 1642,
           "height": 3008
-        }
+        },
+        "hexColor": "#E7E7E8"
       },
       "space-grey": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/8%20Plus/Space%20Grey/frame.png",
@@ -1867,7 +1995,8 @@
         "frameSize": {
           "width": 1642,
           "height": 3008
-        }
+        },
+        "hexColor": "#545459"
       }
     },
     "air": {
@@ -1883,7 +2012,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#656663"
       },
       "light-gold": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/Air/Light%20Gold/frame.png",
@@ -1897,7 +2027,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#5B5440"
       },
       "sky-blue": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/Air/Sky%20Blue/frame.png",
@@ -1911,7 +2042,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#222F3C"
       },
       "space-black": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/Air/Space%20Black/frame.png",
@@ -1925,7 +2057,8 @@
         "frameSize": {
           "width": 1490,
           "height": 2996
-        }
+        },
+        "hexColor": "#484849"
       }
     },
     "xs": {
@@ -1941,7 +2074,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#3C2D1E"
       },
       "gold-with-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/XS/Gold%20with%20Shadow/frame.png",
@@ -1955,7 +2089,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#3C2D1E"
       },
       "grey": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/XS/Grey/frame.png",
@@ -1969,7 +2104,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#999798"
       },
       "silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/XS/Silver/frame.png",
@@ -1983,7 +2119,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#E7E7E7"
       },
       "silver-with-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/XS/Silver%20with%20Shadow/frame.png",
@@ -1997,7 +2134,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#E7E7E7"
       },
       "space-grey": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/XS/Space%20Grey/frame.png",
@@ -2011,7 +2149,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#999798"
       },
       "space-grey-with-shadow": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/XS/Space%20Grey%20with%20Shadow/frame.png",
@@ -2025,7 +2164,8 @@
         "frameSize": {
           "width": 1385,
           "height": 2676
-        }
+        },
+        "hexColor": "#999798"
       }
     }
   }

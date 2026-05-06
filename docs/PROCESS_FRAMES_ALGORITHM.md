@@ -29,6 +29,7 @@ frame_processor/
   __init__.py              ← public API exports
   pipeline.py              ← file discovery & orchestration
   processor.py             ← core image analysis (DeviceFrameProcessor)
+  color_extractor.py       ← dominant frame body color → hex
   indexer.py               ← generates device-frames-output/index.json
   readme_updater.py        ← updates README device list section
   models.py                ← ScreenBounds, FrameTemplate dataclasses
@@ -62,7 +63,7 @@ are written to `device-frames-output/<Type>/<Model>/<Variant>/`:
 |---|---|
 | `frame.png` | Original PNG copied as-is (RGBA) |
 | `mask.png` | Greyscale mask — white = screen area, black = frame |
-| `template.json` | Screen bounding box + frame dimensions |
+| `template.json` | Screen bounding box, frame dimensions, and `hexColor` of the frame body |
 
 ---
 
@@ -106,6 +107,31 @@ Checks that:
 - Mask coverage is 50–90% of total frame area
 - Mask does not touch any image edge
 - Bounding box fully encloses the mask region
+
+#### Step 9: Extract `hexColor`
+Computes a representative `#RRGGBB` color for the device body and stores it in
+`template.json`. The algorithm lives in
+[frame_processor/color_extractor.py](../frame_processor/color_extractor.py).
+
+A device frame's cross-section, from outside to inside, looks like:
+
+    [transparent] [chamfer] [highlight] [body] [inner bezel] [screen]
+
+The "body" segment is the device's actual color; the inner bezel is near-black
+on nearly every phone, so a naive "most common opaque pixel" lands on bezel
+rather than the body. To find the body:
+
+1. For each row, take the first opaque pixel and walk inward up to 25 pixels.
+   Same for the last opaque pixel walking inward, and analogously per column
+   from the top and bottom edges.
+2. While walking, skip leading dark pixels (some phones have a pure-black
+   outer shadow chamfer, e.g. iPhone XS).
+3. Stop on a sustained dark streak (2 consecutive near-black pixels) — that's
+   the inner bezel — and drop the last 3 collected samples (the brightness
+   ramp from body into bezel) so they don't dominate the histogram.
+4. Quantize collected RGB samples into 16-step buckets and pick the most
+   populated bucket. Average the pixels in that bucket for sub-bucket
+   precision and emit the result as `#RRGGBB`.
 
 ---
 
