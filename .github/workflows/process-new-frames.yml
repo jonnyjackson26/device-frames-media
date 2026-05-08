@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,14 +36,21 @@ jobs:
 
       - name: Detect changed files in device-frames-raw
         id: changed
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
         run: |
+          # Fall back to HEAD~1 if 'before' is the zero SHA (new branch / force push)
+          if [ -z "$BEFORE_SHA" ] || [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            BEFORE_SHA="HEAD~1"
+          fi
+
           # Get list of changed files in device-frames-raw
-          ADDED=$(git diff HEAD~1 HEAD --name-only --diff-filter=A -- device-frames-raw/ || echo "")
-          MODIFIED=$(git diff HEAD~1 HEAD --name-only --diff-filter=M -- device-frames-raw/ || echo "")
-          DELETED=$(git diff HEAD~1 HEAD --name-only --diff-filter=D -- device-frames-raw/ || echo "")
+          ADDED=$(git diff "$BEFORE_SHA" HEAD --name-only --diff-filter=A -- device-frames-raw/ || echo "")
+          MODIFIED=$(git diff "$BEFORE_SHA" HEAD --name-only --diff-filter=M -- device-frames-raw/ || echo "")
+          DELETED=$(git diff "$BEFORE_SHA" HEAD --name-only --diff-filter=D -- device-frames-raw/ || echo "")
 
           # For renames: extract old names (deleted) and new names (to process) separately
-          RENAMED_STATUS=$(git diff HEAD~1 HEAD --name-status --diff-filter=R -- device-frames-raw/ || echo "")
+          RENAMED_STATUS=$(git diff "$BEFORE_SHA" HEAD --name-status --diff-filter=R -- device-frames-raw/ || echo "")
           RENAMED_OLD=$(echo "$RENAMED_STATUS" | awk '{print $2}' | grep -v '^$' || true)
           RENAMED_NEW=$(echo "$RENAMED_STATUS" | awk '{print $3}' | grep -v '^$' || true)
 
