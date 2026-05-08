@@ -669,38 +669,6 @@
         "hexColor": "#827D75"
       }
     },
-    "ipad-mini-8-3-a17-pro": {
-      "starlight": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/mask.png",
-        "screen": {
-          "x": 201,
-          "y": 201,
-          "width": 2264,
-          "height": 1487
-        },
-        "frameSize": {
-          "width": 2666,
-          "height": 1888
-        },
-        "hexColor": "#ACA496"
-      },
-      "starlight2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 201,
-          "width": 1487,
-          "height": 2264
-        },
-        "frameSize": {
-          "width": 1888,
-          "height": 2666
-        },
-        "hexColor": "#ACA496"
-      }
-    },
     "ipad-pro-11-a12x-to-m2": {
       "landscape-silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver/frame.png",
@@ -1067,6 +1035,38 @@
           "height": 2952
         },
         "hexColor": "#393639"
+      }
+    },
+    "ipad-mini-8-3-a17-pro": {
+      "starlight": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/mask.png",
+        "screen": {
+          "x": 201,
+          "y": 201,
+          "width": 2264,
+          "height": 1487
+        },
+        "frameSize": {
+          "width": 2666,
+          "height": 1888
+        },
+        "hexColor": "#ACA496"
+      },
+      "starlight2": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 201,
+          "width": 1487,
+          "height": 2264
+        },
+        "frameSize": {
+          "width": 1888,
+          "height": 2666
+        },
+        "hexColor": "#ACA496"
       }
     }
   },
