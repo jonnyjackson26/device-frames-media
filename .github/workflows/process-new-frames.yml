@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "device-frames-raw/**"
+      - "device-frames-output/**"
       - "process_frames.py"
       - "generate_cover.py"
       - "frame_processor/**"
