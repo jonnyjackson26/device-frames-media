@@ -1460,6 +1460,23 @@
         "hexColor": "#2A2A2A"
       }
     },
+    "15": {
+      "yellow": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/15/Yellow/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/15/Yellow/mask.png",
+        "screen": {
+          "x": 120,
+          "y": 120,
+          "width": 1179,
+          "height": 2556
+        },
+        "frameSize": {
+          "width": 1419,
+          "height": 2796
+        },
+        "hexColor": "#EBE4C7"
+      }
+    },
     "15-pro-max": {
       "black-titanium": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPhone/15%20Pro%20Max/Black%20Titanium/frame.png",
