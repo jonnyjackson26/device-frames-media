@@ -1,0 +1,15 @@
+{
+  "frame": "frame.png",
+  "mask": "mask.png",
+  "screen": {
+    "x": 120,
+    "y": 120,
+    "width": 1179,
+    "height": 2556
+  },
+  "frameSize": {
+    "width": 1419,
+    "height": 2796
+  },
+  "hexColor": "#E6C8CA"
+}
