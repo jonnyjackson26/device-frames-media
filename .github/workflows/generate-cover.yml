@@ -1,0 +1,52 @@
+name: generate-cover
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "device-frames-output/**"
+      - "generate_cover.py"
+      - "requirements.txt"
+      - ".github/workflows/generate-cover.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-cover:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core
+          pip install -r requirements.txt
+
+      - name: Generate cover image
+        run: python generate_cover.py
+
+      - name: Commit generated cover image
+        run: |
+          if git diff --quiet -- docs/cover.png; then
+            echo "cover.png unchanged, nothing to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/cover.png
+          git commit -m "chore: regenerate cover image"
+          git push

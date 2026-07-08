@@ -7,6 +7,7 @@ on:
     paths:
       - "device-frames-raw/**"
       - "process_frames.py"
+      - "generate_cover.py"
       - "frame_processor/**"
       - "requirements.txt"
       - ".github/workflows/process-new-frames.yml"
@@ -32,7 +33,10 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-dejavu-core
+          pip install -r requirements.txt
 
       - name: Detect changed files in device-frames-raw
         id: changed
@@ -82,6 +86,9 @@ jobs:
           DELETED_FILES: ${{ steps.changed.outputs.deleted }}
         run: python process_frames.py
 
+      - name: Regenerate cover image
+        run: python generate_cover.py
+
       - name: Commit generated changes
         env:
           ADDED_FILES: ${{ steps.changed.outputs.added }}
@@ -93,7 +100,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A device-frames-output/ README.md
+          git add -A device-frames-output/ README.md docs/cover.png
 
           ADDED_FRAME_LINES=$(echo "$ADDED_FILES" \
             | grep -E '^device-frames-raw/.*\.png$' \

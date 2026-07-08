@@ -1,6 +1,8 @@
 # Device Frames Media
 **The Open Source Standard Library for Device Templates** - [Website](https://device-frames-web.vercel.app/frame-media)
 
+![All device frames](docs/cover.png)
+
 For each device, there is a:
  - PNG of the device frame 
  - PNG of the mask of the frame (grayscale binary screen mask)
