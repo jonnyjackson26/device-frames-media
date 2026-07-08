@@ -73,7 +73,12 @@ def load_section_items(cat_keys):
             if not os.path.exists(path):
                 print("MISSING FILE:", path)
                 continue
-            items.append({"path": path, "mask_path": mask_path if os.path.exists(mask_path) else None})
+            items.append({
+                "dev_key": dev_key,
+                "path": path,
+                "mask_path": mask_path if os.path.exists(mask_path) else None,
+            })
+    items.sort(key=lambda it: it["dev_key"].lower())
     return items
 
 

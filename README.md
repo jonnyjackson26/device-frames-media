@@ -1,5 +1,4 @@
-# Device Frames Media
-**The Open Source Standard Library for Device Templates** - [Website](https://device-frames-web.vercel.app/frame-media)
+# The Open Source Standard Library for Device Templates - [Website](https://device-frames-web.vercel.app/frame-media)
 
 ![All device frames](docs/cover.png)
 
