@@ -13,9 +13,9 @@ GITHUB_PAGES_BASE_URL = "https://raw.githubusercontent.com/jonnyjackson26/device
 ALPHA_CLEAR = 10      # Transparent threshold
 
 # Constraints
-# Aspect ratio bounds (portrait phones: 1.7-2.4, tablets: 1.3-1.6)
-MIN_SCREEN_RATIO = 1.3    # Aspect ratio bounds
+# Aspect ratio bounds (portrait phones: 1.7-2.4, tablets: 1.3-1.6, watches: 1.15-1.25)
+MIN_SCREEN_RATIO = 1.1    # Aspect ratio bounds
 MAX_SCREEN_RATIO = 2.5
-MIN_MASK_COVERAGE = 0.5   # Mask area / frame area
+MIN_MASK_COVERAGE = 0.3   # Mask area / frame area (watch frames include the band, so the screen is a smaller share)
 MAX_MASK_COVERAGE = 0.9
 MIN_REGION_AREA = 5000    # Minimum region size (pixels)

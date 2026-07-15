@@ -22,8 +22,8 @@ device-frames-output/
 │           └── template.json  
 ├── index.json 
 ```
-where **category** is either `Apple iPhone, Android Phone, Android Tablet, Apple iPad`,   
-**model** is the type of device `(ex: 17 Pro Max, iPad mini 8.3, Pixel 9 Pro XL)`, and  
+where **category** is either `Apple iPhone, Apple Watch, Android Phone, Android Tablet, Apple iPad`,   
+**model** is the type of device `(ex: 17 Pro Max, iPad mini 8.3, Series 7-9 45mm, Pixel 9 Pro XL)`, and  
 **variant** is the different colors `(ex: Cosmic Orange, Blue, Titanium)`,  
 and [`index.json`](https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/index.json) is a JSON file which contains all frames in a nested lookup structure, each variant in kebab-case with hosted URLs and template metadata:
   ```json
@@ -121,6 +121,11 @@ Please add more device frames to expand the dataset. See [CONTRIBUTING.md](CONTR
    - [Landscape - Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver), [Landscape - Silver - Pencil](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Silver%20-%20Pencil), [Landscape - Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey), [Landscape - Space Grey - Pencil](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Landscape%20-%20Space%20Grey%20-%20Pencil), [Portrait - Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver), [Portrait - Silver - Pencil](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Silver%20-%20Pencil), [Portrait - Space Grey](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey), [Portrait - Space Grey - Pencil](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20A12X%20to%20M2/Portrait%20-%20Space%20Grey%20-%20Pencil)
  - iPad Pro 13 M4 & M5
    - [Landscape - Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Silver), [Landscape - Space Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Landscape%20-%20Space%20Black), [Portrait - Silver](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Silver), [Portrait - Space Black](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20iPad/iPad%20Pro%2013%20M4%20%26%20M5/Portrait%20-%20Space%20Black)
+
+**Apple Watch:**
+
+ - Series 7-9 45mm
+   - [Gold Stainless Steel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Gold%20Stainless%20Steel), [Graphite Stainless Steel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Graphite%20Stainless%20Steel), [Midnight Aluminum](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Midnight%20Aluminum), [Silver Aluminum](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Silver%20Aluminum), [Silver Stainless Steel](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Silver%20Stainless%20Steel), [Starlight Aluminum](https://github.com/jonnyjackson26/device-frames-media/tree/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Starlight%20Aluminum)
 
 **Android Phone:**
 

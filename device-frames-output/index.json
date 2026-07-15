@@ -669,6 +669,38 @@
         "hexColor": "#827D75"
       }
     },
+    "ipad-mini-8-3-a17-pro": {
+      "starlight": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/mask.png",
+        "screen": {
+          "x": 201,
+          "y": 201,
+          "width": 2264,
+          "height": 1487
+        },
+        "frameSize": {
+          "width": 2666,
+          "height": 1888
+        },
+        "hexColor": "#ACA496"
+      },
+      "starlight2": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/mask.png",
+        "screen": {
+          "x": 200,
+          "y": 201,
+          "width": 1487,
+          "height": 2264
+        },
+        "frameSize": {
+          "width": 1888,
+          "height": 2666
+        },
+        "hexColor": "#ACA496"
+      }
+    },
     "ipad-pro-11-a12x-to-m2": {
       "landscape-silver": {
         "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20Pro%2011%20A12X%20to%20M2/Landscape%20-%20Silver/frame.png",
@@ -1035,38 +1067,6 @@
           "height": 2952
         },
         "hexColor": "#393639"
-      }
-    },
-    "ipad-mini-8-3-a17-pro": {
-      "starlight": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight/mask.png",
-        "screen": {
-          "x": 201,
-          "y": 201,
-          "width": 2264,
-          "height": 1487
-        },
-        "frameSize": {
-          "width": 2666,
-          "height": 1888
-        },
-        "hexColor": "#ACA496"
-      },
-      "starlight2": {
-        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/frame.png",
-        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20iPad/iPad%20mini%208.3%20A17%20Pro/Starlight2/mask.png",
-        "screen": {
-          "x": 200,
-          "y": 201,
-          "width": 1487,
-          "height": 2264
-        },
-        "frameSize": {
-          "width": 1888,
-          "height": 2666
-        },
-        "hexColor": "#ACA496"
       }
     }
   },
@@ -2249,6 +2249,100 @@
           "height": 2676
         },
         "hexColor": "#999798"
+      }
+    }
+  },
+  "apple-watch": {
+    "series-7-9-45mm": {
+      "gold-stainless-steel": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Gold%20Stainless%20Steel/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Gold%20Stainless%20Steel/mask.png",
+        "screen": {
+          "x": 72,
+          "y": 188,
+          "width": 396,
+          "height": 484
+        },
+        "frameSize": {
+          "width": 540,
+          "height": 860
+        },
+        "hexColor": "#D6CCC3"
+      },
+      "graphite-stainless-steel": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Graphite%20Stainless%20Steel/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Graphite%20Stainless%20Steel/mask.png",
+        "screen": {
+          "x": 72,
+          "y": 188,
+          "width": 396,
+          "height": 484
+        },
+        "frameSize": {
+          "width": 540,
+          "height": 860
+        },
+        "hexColor": "#35353A"
+      },
+      "midnight-aluminum": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Midnight%20Aluminum/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Midnight%20Aluminum/mask.png",
+        "screen": {
+          "x": 72,
+          "y": 188,
+          "width": 396,
+          "height": 484
+        },
+        "frameSize": {
+          "width": 540,
+          "height": 860
+        },
+        "hexColor": "#33343A"
+      },
+      "silver-aluminum": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Silver%20Aluminum/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Silver%20Aluminum/mask.png",
+        "screen": {
+          "x": 72,
+          "y": 188,
+          "width": 396,
+          "height": 484
+        },
+        "frameSize": {
+          "width": 540,
+          "height": 860
+        },
+        "hexColor": "#E9E7E6"
+      },
+      "silver-stainless-steel": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Silver%20Stainless%20Steel/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Silver%20Stainless%20Steel/mask.png",
+        "screen": {
+          "x": 72,
+          "y": 188,
+          "width": 396,
+          "height": 484
+        },
+        "frameSize": {
+          "width": 540,
+          "height": 860
+        },
+        "hexColor": "#E9E7E5"
+      },
+      "starlight-aluminum": {
+        "frame": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Starlight%20Aluminum/frame.png",
+        "mask": "https://raw.githubusercontent.com/jonnyjackson26/device-frames-media/main/device-frames-output/Apple%20Watch/Series%207-9%2045mm/Starlight%20Aluminum/mask.png",
+        "screen": {
+          "x": 72,
+          "y": 188,
+          "width": 396,
+          "height": 484
+        },
+        "frameSize": {
+          "width": 540,
+          "height": 860
+        },
+        "hexColor": "#D6CCC4"
       }
     }
   }
