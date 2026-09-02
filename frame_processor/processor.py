@@ -47,14 +47,12 @@ class DeviceFrameProcessor:
                 logger.warning("No valid screen region found")
                 return False
 
-            screen_mask_binary = (labeled_array == screen_label).astype(np.uint8)
-
-            bounds = self._extract_bounds(screen_mask_binary)
-            logger.info(f"Screen bounds: {bounds}")
-
             final_mask = self._generate_screen_mask(
-                labeled_array, screen_label, frame_width, frame_height
+                labeled_array, screen_label, alpha, frame_width, frame_height
             )
+
+            bounds = self._extract_bounds(final_mask)
+            logger.info(f"Screen bounds: {bounds}")
 
             if not self._validate(final_mask, frame_width, frame_height, bounds):
                 logger.warning("Validation failed - frame may need manual review")
@@ -172,13 +170,20 @@ class DeviceFrameProcessor:
         self,
         labeled_array: np.ndarray,
         screen_label: int,
+        alpha: np.ndarray,
         frame_width: int,
         frame_height: int,
     ) -> np.ndarray:
         """Generate binary screen mask with contour."""
-        from scipy.ndimage import binary_dilation, binary_erosion
+        from scipy.ndimage import binary_dilation, binary_erosion, binary_propagation
 
         screen_binary = labeled_array == screen_label
+
+        # Grow through connected mostly-transparent pixels so the mask covers
+        # the full glass area — anti-aliased edges and semi-transparent glare
+        # overlays (e.g. Apple Watch bezel art). The opaque bezel bounds the growth.
+        semi_transparent = alpha < 128
+        screen_binary = binary_propagation(screen_binary, mask=semi_transparent)
 
         eroded = binary_erosion(screen_binary, iterations=1)
         dilated = binary_dilation(eroded, iterations=1)

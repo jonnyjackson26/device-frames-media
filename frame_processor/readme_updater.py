@@ -18,6 +18,7 @@ START_HEADINGS = [
 CATEGORY_ORDER = [
     ("Apple iPhone", "Apple iPhone"),
     ("Apple iPad", "Apple iPad"),
+    ("Apple Watch", "Apple Watch"),
     ("Android Phone", "Android Phone"),
     ("Android Tablet", "Android Tablet"),
 ]

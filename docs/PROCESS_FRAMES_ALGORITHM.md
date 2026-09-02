@@ -91,16 +91,18 @@ Chooses the region with:
 - Aspect ratio within 1.3–2.5 (covers phones and tablets)
 - Fully enclosed by opaque pixels
 
-#### Step 5–6: Extract Bounds & Contour
-- Calculate minX, minY, maxX, maxY of the selected region
-- Generate bounding box (stored in `template.json` as `screen`)
-- Extract precise screen contour using edge detection
-
-#### Step 7: Generate Screen Mask
+#### Step 5–6: Generate Screen Mask
+- Grow the selected region through connected mostly-transparent pixels
+  (α < 128) so the mask covers the full glass area — anti-aliased edges and
+  semi-transparent glare overlays (e.g. Apple Watch bezel art). The opaque
+  bezel bounds the growth.
 - Create blank image (same size as frame)
-- Fill detected contour with white (255)
-- Fill background with black (0)
+- Fill grown region with white (255), background with black (0)
 - Feather inward by ~1 px to avoid edge bleed
+
+#### Step 7: Extract Bounds
+- Calculate minX, minY, maxX, maxY of the final mask
+- Generate bounding box (stored in `template.json` as `screen`)
 
 #### Step 8: Validate
 Checks that:

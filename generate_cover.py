@@ -57,6 +57,7 @@ def pick_color(colors):
 SECTIONS = [
     ("Apple iPhone", ["apple-iphone"]),
     ("Apple iPad", ["apple-ipad"]),
+    ("Apple Watch", ["apple-watch"]),
     ("Android", ["android-phone", "android-tablet"]),
 ]
 
@@ -64,7 +65,7 @@ SECTIONS = [
 def load_section_items(cat_keys):
     items = []
     for cat in cat_keys:
-        devices = data[cat]
+        devices = data.get(cat, {})
         for dev_key, colors in devices.items():
             color_key = pick_color(colors)
             entry = colors[color_key]
