@@ -31,13 +31,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: "3.12.15"
 
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y fonts-dejavu-core
-          pip install -r requirements.txt
+          python -m pip install --upgrade "pip>=26.2.2"
+          python -m pip install -r requirements.txt
 
       - name: Detect changed files in device-frames-raw
         id: changed
